@@ -93,7 +93,7 @@ export const get = async (route, params, headers = {}, signal = false) => {
     const url = `${API_URL()}/${route}?${
       params ? encodeGetParams(params) : ""
     }`;
-    console.log(url);
+    // console.log(url);
     const res = await fetch(
       url,
       signal

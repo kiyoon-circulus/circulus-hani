@@ -52,7 +52,7 @@ const LearnByRead = ({
                 <img
                   src={getAsset({ content: item.letter })}
                   alt={item.letter}
-                  className={target === "word" && "p-2 aspect-square"}
+                  className={target === "word" ? "p-2 aspect-square" : ""}
                 />
               </div>
             )}
@@ -87,7 +87,7 @@ const LearnByRead = ({
               <>
                 {item.components.map((c, i) => (
                   <Letters
-                    n={item.components.length}
+                    n={item.components.length + 1}
                     letter={c}
                     key={`${c}-${i}`}
                     className="col-span-1 p-2 font-extrabold"

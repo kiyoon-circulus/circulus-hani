@@ -8,6 +8,32 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
 } from "react-router-dom";
+
+// Layouts
+import AuthLayout from "./layouts/AuthLayout";
+import LearnLayout from "./layouts/LearnLayout";
+import ProgressLayout from "./layouts/ProgressLayout";
+import DashboardLayout from "./layouts/DashboardLayout";
+
+// Pages
+import LoginPage from "./pages/Login";
+import Main from "./pages/dashboard";
+import NotFound from "./pages/NotFound";
+import Character from "./pages/Character";
+import Target from "./pages/Target";
+import Method from "./pages/Method";
+import Learn from "./pages/Learn";
+
+// Components
+import { Dashboard } from "./components/dashboard/Dashboard";
+import { LegacyDashboard } from "./components/dashboard/LegacyDashboard";
+import { GroupManagement } from "./components/dashboard/GroupManagement";
+import { StudentManagement } from "./components/dashboard/StudentManagement";
+import { CharacterManagement } from "./components/dashboard/CharacterManagement";
+import { LegacyStudentManagement } from "./components/dashboard/LegacyStudentManagement";
+import CharacterCurriculumManagement from "./components/dashboard/CharacterCurriculumManagement";
+
+// ETC
 import dayjs from "dayjs";
 import advancedFormat from "dayjs/plugin/advancedFormat";
 import relativeTime from "dayjs/plugin/relativeTime";
@@ -17,28 +43,7 @@ import weekOfYear from "dayjs/plugin/weekOfYear";
 import isoWeek from "dayjs/plugin/isoWeek";
 import "dayjs/locale/ko";
 import QueryProvider from "./providers/QueryProvider";
-
-import NotFound from "./pages/NotFound";
-import Character from "./pages/Character";
-import Target from "./pages/Target";
-import Method from "./pages/Method";
-import Learn from "./pages/Learn";
-import LearnLayout from "./layouts/LearnLayout";
-import ProgressLayout from "./layouts/ProgressLayout";
-import { Dashboard } from "./components/dashboard/Dashboard";
-import { GroupManagement } from "./components/dashboard/GroupManagement";
-import { CharacterManagement } from "./components/dashboard/CharacterManagement";
-
-import DashboardLayout from "./layouts/DashboardLayout";
-import Main from "./pages/dashboard";
-import CharacterCurriculumManagement from "./components/dashboard/CharacterCurriculumManagement";
-
-import LoginPage from "./pages/Login";
 import { getUserData } from "./api";
-import AuthLayout from "./layouts/AuthLayout";
-import { LegacyDashboard } from "./components/dashboard/LegacyDashboard";
-import { LegacyStudentManagement } from "./components/dashboard/LegacyStudentManagement";
-import { StudentManagement } from "./components/dashboard/StudentManagement";
 
 dayjs.locale("ko");
 dayjs.extend(objectSupport);

@@ -13,6 +13,9 @@ const Letters = ({ letter, n, className, noBorder }) => {
       case 5:
         setTextSize("text-7xl");
         break;
+      case 6:
+        setTextSize("text-5xl");
+        break;
       default:
         setTextSize("text-len1");
         break;

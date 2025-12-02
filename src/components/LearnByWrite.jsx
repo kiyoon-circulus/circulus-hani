@@ -305,7 +305,7 @@ const LearnByWrite = ({
               <img
                 src={getAsset({ content: `${item.letter}`, type: "write" })}
                 alt={item.letter}
-                className={target === "word" && "p-2 aspect-square"}
+                className={target === "word" ? "p-2 aspect-square" : ""}
               />
             </div>
           )}

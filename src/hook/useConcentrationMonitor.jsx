@@ -500,7 +500,7 @@ export const useConcentrationMonitor = (sessionId, studentId) => {
 
   useEffect(() => {
     initializeCamera();
-  }, [videoRef?.current]);
+  }, [videoRef]);
 
   return {
     startQuestionTimer,

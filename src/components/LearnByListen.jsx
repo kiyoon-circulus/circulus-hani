@@ -133,7 +133,7 @@ const LearnByListen = ({
                 <img
                   src={getAsset({ content: item.letter })}
                   alt={item.letter}
-                  className={target === "word" && "p-2 aspect-square"}
+                  className={target === "word" ? "p-2 aspect-square" : ""}
                 />
               </div>
             )}
