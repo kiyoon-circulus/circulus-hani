@@ -1,0 +1,3799 @@
+{
+  "consonant": [
+    {
+      "letter": "ㄱ",
+      "name": "기역",
+      "sound": "[ㄱ]",
+      "example": ["고양이의 ㄱ", "가방의 ㄱ", "가위의 ㄱ"],
+      "image": ["🐈", "🎒", "✂️"],
+      "meaning": null,
+      "components": null
+    },
+    {
+      "letter": "ㄴ",
+      "name": "니은",
+      "sound": "[ㄴ]",
+      "example": ["나비의 ㄴ", "나무의 ㄴ", "나라의 ㄴ"],
+      "image": ["🦋", "🌳", "🇰🇷"],
+      "meaning": null,
+      "components": null
+    },
+    {
+      "letter": "ㄷ",
+      "name": "디귿",
+      "sound": "[ㄷ]",
+      "example": ["다람쥐의 ㄷ", "다섯의 ㄷ", "다리의 ㄷ"],
+      "image": ["🐿️", "5️⃣", "🦵"],
+      "meaning": null,
+      "components": null
+    },
+    {
+      "letter": "ㄹ",
+      "name": "리을",
+      "sound": "[ㄹ]",
+      "example": ["라면의 ㄹ", "라디오의 ㄹ", "라마의 ㄹ"],
+      "image": ["🍜", "📻", "🦙"],
+      "meaning": null,
+      "components": null
+    },
+    {
+      "letter": "ㅁ",
+      "name": "미음",
+      "sound": "[ㅁ]",
+      "example": ["마이크의 ㅁ", "마당의 ㅁ", "마법의 ㅁ"],
+      "image": ["🎤", "🏡", "🪄"],
+      "meaning": null,
+      "components": null
+    },
+    {
+      "letter": "ㅂ",
+      "name": "비읍",
+      "sound": "[ㅂ]",
+      "example": ["바나나의 ㅂ", "바다의 ㅂ", "바지의 ㅂ"],
+      "image": ["🍌", "🏖️", "👖"],
+      "meaning": null,
+      "components": null
+    },
+    {
+      "letter": "ㅅ",
+      "name": "시옷",
+      "sound": "[ㅅ]",
+      "example": ["사과의 ㅅ", "사람의 ㅅ", "사랑의 ㅅ"],
+      "image": ["🍎", "🚶🏻", "💕"],
+      "meaning": null,
+      "components": null
+    },
+    {
+      "letter": "ㅇ",
+      "name": "이응",
+      "sound": "[ㅇ]",
+      "example": ["아기의 ㅇ", "아이스크림의 ㅇ", "아침의 ㅇ"],
+      "image": ["👶🏻", "🍦", "🌄"],
+      "meaning": null,
+      "components": null
+    },
+    {
+      "letter": "ㅈ",
+      "name": "지읒",
+      "sound": "[ㅈ]",
+      "example": ["자동차의 ㅈ", "자전거의 ㅈ", "자석의 ㅈ"],
+      "image": ["🚗", "🚲", "🧲"],
+      "meaning": null,
+      "components": null
+    },
+    {
+      "letter": "ㅊ",
+      "name": "치읓",
+      "sound": "[ㅊ]",
+      "example": ["차선의 ㅊ", "차갑다의 ㅊ", "차의 ㅊ"],
+      "image": ["🛣️", "🥶", "🚗"],
+      "meaning": null,
+      "components": null
+    },
+    {
+      "letter": "ㅋ",
+      "name": "키읔",
+      "sound": "[ㅋ]",
+      "example": ["카메라의 ㅋ", "카드의 ㅋ", "카레의 ㅋ"],
+      "image": ["📸", "💌", "🍛"],
+      "meaning": null,
+      "components": null
+    },
+    {
+      "letter": "ㅌ",
+      "name": "티읕",
+      "sound": "[ㅌ]",
+      "example": ["타워의 ㅌ", "타악기의 ㅌ", "타이어의 ㅌ"],
+      "image": ["🗼", "🥁", "🛞"],
+      "meaning": null,
+      "components": null
+    },
+    {
+      "letter": "ㅍ",
+      "name": "피읖",
+      "sound": "[ㅍ]",
+      "example": ["파인애플의 ㅍ", "파리의 ㅍ", "파도의 ㅍ"],
+      "image": ["🍍", "🪰", "🌊"],
+      "meaning": null,
+      "components": null
+    },
+    {
+      "letter": "ㅎ",
+      "name": "히읗",
+      "sound": "[ㅎ]",
+      "example": ["하마의 ㅎ", "하늘의 ㅎ", "하나의 ㅎ"],
+      "image": ["🦛", "🌌", "☝🏻"],
+      "meaning": null,
+      "components": null
+    },
+    {
+      "letter": "ㄲ",
+      "name": "쌍기역",
+      "sound": "[ㄲ]",
+      "example": ["꽃의 ㄲ", "꿀의 ㄲ", "코끼리의 ㄲ"],
+      "image": ["🌸", "🍯", "🐘"],
+      "meaning": null,
+      "components": null
+    },
+    {
+      "letter": "ㄸ",
+      "name": "쌍디귿",
+      "sound": "[ㄸ]",
+      "example": ["뜨거운의 ㄸ", "딸기의 ㄸ", "땅콩의 ㄸ"],
+      "image": ["🔥", "🍓", "🥜"],
+      "meaning": null,
+      "components": null
+    },
+    {
+      "letter": "ㅃ",
+      "name": "쌍비읍",
+      "sound": "[ㅃ]",
+      "example": ["빨강의 ㅃ", "빵의 ㅃ", "삐약삐약의 ㅃ"],
+      "image": ["🔴", "🍞", "🐣"],
+      "meaning": null,
+      "components": null
+    },
+    {
+      "letter": "ㅆ",
+      "name": "쌍시옷",
+      "sound": "[ㅆ]",
+      "example": ["쓰다의 ㅆ", "쌀의 ㅆ", "쓰레기의 ㅆ"],
+      "image": ["✍️", "🍚", "🗑️"],
+      "meaning": null,
+      "components": null
+    },
+    {
+      "letter": "ㅉ",
+      "name": "쌍지읒",
+      "sound": "[ㅉ]",
+      "example": ["짝꿍의 ㅉ", "짜다의 ㅉ", "찌개의 ㅉ"],
+      "image": ["👫", "🧂", "🍲"],
+      "meaning": null,
+      "components": null
+    }
+  ],
+  "vowel": [
+    {
+      "letter": "ㅏ",
+      "name": "아",
+      "sound": "[아]",
+      "example": ["아기의 ㅏ", "사랑의 ㅏ", "가방의 ㅏ"],
+      "image": ["👶🏻", "💕", "🎒"],
+      "meaning": null,
+      "components": null
+    },
+    {
+      "letter": "ㅑ",
+      "name": "야",
+      "sound": "[야]",
+      "example": ["야구의 ㅑ", "샤워의 ㅑ", "갸웃의 ㅑ"],
+      "image": ["⚾", "🚿", "🤔"],
+      "meaning": null,
+      "components": null
+    },
+    {
+      "letter": "ㅓ",
+      "name": "어",
+      "sound": "[어]",
+      "example": ["너구리의 ㅓ", "거미의 ㅓ", "더하기의 ㅓ"],
+      "image": ["🦝", "🕷️", "➕"],
+      "meaning": null,
+      "components": null
+    },
+    {
+      "letter": "ㅕ",
+      "name": "여",
+      "sound": "[여]",
+      "example": ["여우의 ㅕ", "겨울의 ㅕ", "벼의 ㅕ"],
+      "image": ["🦊", "❄️", "🌾"],
+      "meaning": null,
+      "components": null
+    },
+    {
+      "letter": "ㅗ",
+      "name": "오",
+      "sound": "[오]",
+      "example": ["오리의 ㅗ", "노래의 ㅗ", "로보트의 ㅗ"],
+      "image": ["🦆", "🎶", "🤖"],
+      "meaning": null,
+      "components": null
+    },
+    {
+      "letter": "ㅛ",
+      "name": "요",
+      "sound": "[요]",
+      "example": ["요구르트의 ㅛ", "요리의 ㅛ", "교실의 ㅛ"],
+      "image": ["🥛", "🧑🏻‍🍳", "🏫"],
+      "meaning": null,
+      "components": null
+    },
+    {
+      "letter": "ㅜ",
+      "name": "우",
+      "sound": "[우]",
+      "example": ["우유의 ㅜ", "구두의 ㅜ", "비누의 ㅜ"],
+      "image": ["🥛", "👠", "🧼"],
+      "meaning": null,
+      "components": null
+    },
+    {
+      "letter": "ㅠ",
+      "name": "유",
+      "sound": "[유]",
+      "example": ["뉴스의 ㅠ", "유리의 ㅠ", "뮤직의 ㅠ"],
+      "image": ["📺", "🪟", "🎵"],
+      "meaning": null,
+      "components": null
+    },
+    {
+      "letter": "ㅡ",
+      "name": "으",
+      "sound": "[으]",
+      "example": ["케이크의 ㅡ", "크레용의 ㅡ", "트럭의 ㅡ"],
+      "image": ["🍰", "🖍️", "🚛"],
+      "meaning": null,
+      "components": null
+    },
+    {
+      "letter": "ㅣ",
+      "name": "이",
+      "sound": "[이]",
+      "example": ["기린의 ㅣ", "리본의 ㅣ", "시계의 ㅣ"],
+      "image": ["🦒", "🎀", "🕒"],
+      "meaning": null,
+      "components": null
+    },
+    {
+      "letter": "ㅐ",
+      "name": "애",
+      "sound": "[애]",
+      "example": ["태양의 ㅐ", "날개의 ㅐ", "노래의 ㅐ"],
+      "image": ["🌞", "🪽", "🎶"],
+      "meaning": null,
+      "components": null
+    },
+    {
+      "letter": "ㅒ",
+      "name": "얘",
+      "sound": "[얘]",
+      "example": ["얘기의 ㅒ", "걔의 ㅒ", "쟤의 ㅒ"],
+      "image": ["💬", "🚶🏻‍♂️", "🏃🏻‍♂️"],
+      "meaning": null,
+      "components": null
+    },
+    {
+      "letter": "ㅔ",
+      "name": "에",
+      "sound": "[에]",
+      "example": ["네모의 ㅔ", "레몬의 ㅔ", "메론의 ㅔ"],
+      "image": ["⬛", "🍋", "🍈"],
+      "meaning": null,
+      "components": null
+    },
+    {
+      "letter": "ㅖ",
+      "name": "예",
+      "sound": "[예]",
+      "example": ["계획의 ㅖ", "시계의 ㅖ", "예쁜의 ㅖ"],
+      "image": ["📋", "🕒", "✨"],
+      "meaning": null,
+      "components": null
+    },
+    {
+      "letter": "ㅘ",
+      "name": "와",
+      "sound": "[와]",
+      "example": ["와인의 ㅘ", "과자의 ㅘ", "사과의 ㅘ"],
+      "image": ["🍷", "🍪", "🍎"],
+      "meaning": null,
+      "components": null
+    },
+    {
+      "letter": "ㅙ",
+      "name": "왜",
+      "sound": "[왜]",
+      "example": ["왜의 ㅙ", "돼지의 ㅙ", "안돼의 ㅙ"],
+      "image": ["❓", "🐷", "🙅🏻"],
+      "meaning": null,
+      "components": null
+    },
+    {
+      "letter": "ㅚ",
+      "name": "외",
+      "sound": "[외]",
+      "example": ["괴물의 ㅚ", "외국의 ㅚ", "열쇠의 ㅚ"],
+      "image": ["👹", "🌍", "🔑"],
+      "meaning": null,
+      "components": null
+    },
+    {
+      "letter": "ㅝ",
+      "name": "워",
+      "sound": "[워]",
+      "example": ["샤워의 ㅝ", "타워의 ㅝ", "원숭이의 ㅝ"],
+      "image": ["🚿", "🗼", "🐵"],
+      "meaning": null,
+      "components": null
+    },
+    {
+      "letter": "ㅞ",
+      "name": "웨",
+      "sound": "[웨]",
+      "example": ["궤도의 ㅞ", "웨딩의 ㅞ", "스웨덴의 ㅞ"],
+      "image": ["🛰️", "💒", "🇸🇪"],
+      "meaning": null,
+      "components": null
+    },
+    {
+      "letter": "ㅟ",
+      "name": "위",
+      "sound": "[위]",
+      "example": ["위의 ㅟ", "뒤의 ㅟ", "쥐의 ㅟ"],
+      "image": ["⬆️", "🔙", "🐭"],
+      "meaning": null,
+      "components": null
+    },
+    {
+      "letter": "ㅢ",
+      "name": "의",
+      "sound": "[의]",
+      "example": ["의사의 ㅢ", "의자의 ㅢ", "의상의 ㅢ"],
+      "image": ["👨‍⚕️", "🪑", "👗"],
+      "meaning": null,
+      "components": null
+    }
+  ],
+  "syllable": [
+    {
+      "letter": "가",
+      "name": "가",
+      "sound": null,
+      "example": null,
+      "image": ["🎒", "✂️", "🥄"],
+      "meaning": ["가방의 가", "가위의 가", "숟가락의 가"],
+      "components": ["ㄱ", "ㅏ"]
+    },
+    {
+      "letter": "나",
+      "name": "나",
+      "sound": null,
+      "example": null,
+      "image": ["🦋", "🇰🇷", "🌳"],
+      "meaning": ["나비의 나", "나라의 나", "나무의 나"],
+      "components": ["ㄴ", "ㅏ"]
+    },
+    {
+      "letter": "다",
+      "name": "다",
+      "sound": null,
+      "example": null,
+      "image": ["🐿️", "🦵", "5️⃣"],
+      "meaning": ["다람쥐의 다", "다리의 다", "다섯의 다"],
+      "components": ["ㄷ", "ㅏ"]
+    },
+    {
+      "letter": "라",
+      "name": "라",
+      "sound": null,
+      "example": null,
+      "image": ["🍜", "📻", "🦙"],
+      "meaning": ["라면의 라", "라디오의 라", "라마의 라"],
+      "components": ["ㄹ", "ㅏ"]
+    },
+    {
+      "letter": "마",
+      "name": "마",
+      "sound": null,
+      "example": null,
+      "image": ["❤️", "🎤", "🏡"],
+      "meaning": ["마음의 마", "마이크의 마", "마당의 마"],
+      "components": ["ㅁ", "ㅏ"]
+    },
+    {
+      "letter": "바",
+      "name": "바",
+      "sound": null,
+      "example": null,
+      "image": ["🍌", "🌊", "👖"],
+      "meaning": ["바나나의 바", "바다의 바", "바지의 바"],
+      "components": ["ㅂ", "ㅏ"]
+    },
+    {
+      "letter": "사",
+      "name": "사",
+      "sound": null,
+      "example": null,
+      "image": ["🍎", "💕", "🦁"],
+      "meaning": ["사과의 사", "사랑의 사", "사자의 사"],
+      "components": ["ㅅ", "ㅏ"]
+    },
+    {
+      "letter": "아",
+      "name": "아",
+      "sound": null,
+      "example": null,
+      "image": ["👶🏻", "🍦", "🌅"],
+      "meaning": ["아기의 아", "아이스크림의 아", "아침의 아"],
+      "components": ["ㅇ", "ㅏ"]
+    },
+    {
+      "letter": "자",
+      "name": "자",
+      "sound": null,
+      "example": null,
+      "image": ["🚗", "🧲", "🚲"],
+      "meaning": ["자동차의 자", "자석의 자", "자전거의 자"],
+      "components": ["ㅈ", "ㅏ"]
+    },
+    {
+      "letter": "차",
+      "name": "차",
+      "sound": null,
+      "example": null,
+      "image": ["🚗", "🧊", "🛣️"],
+      "meaning": ["차의 차", "차갑다의 차", "차선의 차"],
+      "components": ["ㅊ", "ㅏ"]
+    },
+    {
+      "letter": "카",
+      "name": "카",
+      "sound": null,
+      "example": null,
+      "image": ["💌", "🍛", "📷"],
+      "meaning": ["카드의 카", "카레의 카", "카메라의 카"],
+      "components": ["ㅋ", "ㅏ"]
+    },
+    {
+      "letter": "타",
+      "name": "타",
+      "sound": null,
+      "example": null,
+      "image": ["🗼", "🛞", "🦆"],
+      "meaning": ["타워의 타", "타이어의 타", "타조의 타"],
+      "components": ["ㅌ", "ㅏ"]
+    },
+    {
+      "letter": "파",
+      "name": "파",
+      "sound": null,
+      "example": null,
+      "image": ["🍍", "🌊", "🪰"],
+      "meaning": ["파인애플의 파", "파도의 파", "파리의 파"],
+      "components": ["ㅍ", "ㅏ"]
+    },
+    {
+      "letter": "하",
+      "name": "하",
+      "sound": null,
+      "example": null,
+      "image": ["☝🏻", "🦛", "☁️"],
+      "meaning": ["하나의 하", "하마의 하", "하늘의 하"],
+      "components": ["ㅎ", "ㅏ"]
+    },
+    {
+      "letter": "거",
+      "name": "거",
+      "sound": null,
+      "example": null,
+      "image": ["🐢", "🐢", "🐢"],
+      "meaning": ["거북이의 거", "거북이의 거", "거북이의 거"],
+      "components": ["ㄱ", "ㅓ"]
+    },
+    {
+      "letter": "너",
+      "name": "너",
+      "sound": null,
+      "example": null,
+      "image": ["👉", "👉", "👉"],
+      "meaning": ["너의 너", "너의 너", "너의 너"],
+      "components": ["ㄴ", "ㅓ"]
+    },
+    {
+      "letter": "더",
+      "name": "더",
+      "sound": null,
+      "example": null,
+      "image": ["➕", "➕", "➕"],
+      "meaning": ["더의 더", "더의 더", "더의 더"],
+      "components": ["ㄷ", "ㅓ"]
+    },
+    {
+      "letter": "러",
+      "name": "러",
+      "sound": null,
+      "example": null,
+      "image": ["🇷🇺", "🇷🇺", "🇷🇺"],
+      "meaning": ["러시아의 러", "러시아의 러", "러시아의 러"],
+      "components": ["ㄹ", "ㅓ"]
+    },
+    {
+      "letter": "머",
+      "name": "머",
+      "sound": null,
+      "example": null,
+      "image": ["💇", "💇", "💇"],
+      "meaning": ["머리의 머", "머리의 머", "머리의 머"],
+      "components": ["ㅁ", "ㅓ"]
+    },
+    {
+      "letter": "버",
+      "name": "버",
+      "sound": null,
+      "example": null,
+      "image": ["🚌", "🚌", "🚌"],
+      "meaning": ["버스의 버", "버스의 버", "버스의 버"],
+      "components": ["ㅂ", "ㅓ"]
+    },
+    {
+      "letter": "서",
+      "name": "서",
+      "sound": null,
+      "example": null,
+      "image": ["🏙️", "🏙️", "🏙️"],
+      "meaning": ["서울의 서", "서울의 서", "서울의 서"],
+      "components": ["ㅅ", "ㅓ"]
+    },
+    {
+      "letter": "어",
+      "name": "어",
+      "sound": null,
+      "example": null,
+      "image": ["👩🏻", "👩🏻", "👩🏻"],
+      "meaning": ["어머니의 어", "어머니의 어", "어머니의 어"],
+      "components": ["ㅇ", "ㅓ"]
+    },
+    {
+      "letter": "저",
+      "name": "저",
+      "sound": null,
+      "example": null,
+      "image": ["👈", "👈", "👈"],
+      "meaning": ["저의 저", "저의 저", "저의 저"],
+      "components": ["ㅈ", "ㅓ"]
+    },
+    {
+      "letter": "처",
+      "name": "처",
+      "sound": null,
+      "example": null,
+      "image": ["🥇", "🥇", "🥇"],
+      "meaning": ["처음의 처", "처음의 처", "처음의 처"],
+      "components": ["ㅊ", "ㅓ"]
+    },
+    {
+      "letter": "커",
+      "name": "커",
+      "sound": null,
+      "example": null,
+      "image": ["☕️", "☕️", "☕️"],
+      "meaning": ["커피의 커", "커피의 커", "커피의 커"],
+      "components": ["ㅋ", "ㅓ"]
+    },
+    {
+      "letter": "터",
+      "name": "터",
+      "sound": null,
+      "example": null,
+      "image": ["🚇", "🚇", "🚇"],
+      "meaning": ["터널의 터", "터널의 터", "터널의 터"],
+      "components": ["ㅌ", "ㅓ"]
+    },
+    {
+      "letter": "퍼",
+      "name": "퍼",
+      "sound": null,
+      "example": null,
+      "image": ["🧩", "🧩", "🧩"],
+      "meaning": ["퍼즐의 퍼", "퍼즐의 퍼", "퍼즐의 퍼"],
+      "components": ["ㅍ", "ㅓ"]
+    },
+    {
+      "letter": "허",
+      "name": "허",
+      "sound": null,
+      "example": null,
+      "image": ["🧑🏽‍🌾", "🧑🏽‍🌾", "🧑🏽‍🌾"],
+      "meaning": ["허수아비의 허", "허수아비의 허", "허수아비의 허"],
+      "components": ["ㅎ", "ㅓ"]
+    },
+    {
+      "letter": "고",
+      "name": "고",
+      "sound": null,
+      "example": null,
+      "image": ["🐈", "🐈", "🐈"],
+      "meaning": ["고양이의 고", "고양이의 고", "고양이의 고"],
+      "components": ["ㄱ", "ㅗ"]
+    },
+    {
+      "letter": "노",
+      "name": "노",
+      "sound": null,
+      "example": null,
+      "image": ["🎵", "🎵", "🎵"],
+      "meaning": ["노래의 노", "노래의 노", "노래의 노"],
+      "components": ["ㄴ", "ㅗ"]
+    },
+    {
+      "letter": "도",
+      "name": "도",
+      "sound": null,
+      "example": null,
+      "image": ["🍩", "🍩", "🍩"],
+      "meaning": ["도넛의 도", "도넛의 도", "도넛의 도"],
+      "components": ["ㄷ", "ㅗ"]
+    },
+    {
+      "letter": "로",
+      "name": "로",
+      "sound": null,
+      "example": null,
+      "image": ["🤖", "🤖", "🤖"],
+      "meaning": ["로봇의 로", "로봇의 로", "로봇의 로"],
+      "components": ["ㄹ", "ㅗ"]
+    },
+    {
+      "letter": "모",
+      "name": "모",
+      "sound": null,
+      "example": null,
+      "image": ["🧢", "🧢", "🧢"],
+      "meaning": ["모자의 모", "모자의 모", "모자의 모"],
+      "components": ["ㅁ", "ㅗ"]
+    },
+    {
+      "letter": "보",
+      "name": "보",
+      "sound": null,
+      "example": null,
+      "image": ["🟣", "🟣", "🟣"],
+      "meaning": ["보라색의 보", "보라색의 보", "보라색의 보"],
+      "components": ["ㅂ", "ㅗ"]
+    },
+    {
+      "letter": "소",
+      "name": "소",
+      "sound": null,
+      "example": null,
+      "image": ["🐄", "🐄", "🐄"],
+      "meaning": ["소의 소", "소의 소", "소의 소"],
+      "components": ["ㅅ", "ㅗ"]
+    },
+    {
+      "letter": "오",
+      "name": "오",
+      "sound": null,
+      "example": null,
+      "image": ["🦆", "🦆", "🦆"],
+      "meaning": ["오리의 오", "오리의 오", "오리의 오"],
+      "components": ["ㅇ", "ㅗ"]
+    },
+    {
+      "letter": "조",
+      "name": "조",
+      "sound": null,
+      "example": null,
+      "image": ["🐚", "🐚", "🐚"],
+      "meaning": ["조개의 조", "조개의 조", "조개의 조"],
+      "components": ["ㅈ", "ㅗ"]
+    },
+    {
+      "letter": "초",
+      "name": "초",
+      "sound": null,
+      "example": null,
+      "image": ["🍫", "🍫", "🍫"],
+      "meaning": ["초콜릿의 초", "초콜릿의 초", "초콜릿의 초"],
+      "components": ["ㅊ", "ㅗ"]
+    },
+    {
+      "letter": "코",
+      "name": "코",
+      "sound": null,
+      "example": null,
+      "image": ["🐘", "🐘", "🐘"],
+      "meaning": ["코끼리의 코", "코끼리의 코", "코끼리의 코"],
+      "components": ["ㅋ", "ㅗ"]
+    },
+    {
+      "letter": "토",
+      "name": "토",
+      "sound": null,
+      "example": null,
+      "image": ["🍅", "🍅", "🍅"],
+      "meaning": ["토마토의 토", "토마토의 토", "토마토의 토"],
+      "components": ["ㅌ", "ㅗ"]
+    },
+    {
+      "letter": "포",
+      "name": "포",
+      "sound": null,
+      "example": null,
+      "image": ["🍇", "🍇", "🍇"],
+      "meaning": ["포도의 포", "포도의 포", "포도의 포"],
+      "components": ["ㅍ", "ㅗ"]
+    },
+    {
+      "letter": "호",
+      "name": "호",
+      "sound": null,
+      "example": null,
+      "image": ["🐯", "🐯", "🐯"],
+      "meaning": ["호랑이의 호", "호랑이의 호", "호랑이의 호"],
+      "components": ["ㅎ", "ㅗ"]
+    },
+    {
+      "letter": "구",
+      "name": "구",
+      "sound": null,
+      "example": null,
+      "image": ["☁️", "☁️", "☁️"],
+      "meaning": ["구름의 구", "구름의 구", "구름의 구"],
+      "components": ["ㄱ", "ㅜ"]
+    },
+    {
+      "letter": "누",
+      "name": "누",
+      "sound": null,
+      "example": null,
+      "image": ["👩‍🦱", "👩‍🦱", "👩‍🦱"],
+      "meaning": ["누나의 누", "누나의 누", "누나의 누"],
+      "components": ["ㄴ", "ㅜ"]
+    },
+    {
+      "letter": "두",
+      "name": "두",
+      "sound": null,
+      "example": null,
+      "image": ["🧊", "🧊", "🧊"],
+      "meaning": ["두부의 두", "두부의 두", "두부의 두"],
+      "components": ["ㄷ", "ㅜ"]
+    },
+    {
+      "letter": "루",
+      "name": "루",
+      "sound": null,
+      "example": null,
+      "image": ["🇷🇴", "🇷🇴", "🇷🇴"],
+      "meaning": ["루마니아의 루", "루마니아의 루", "루마니아의 루"],
+      "components": ["ㄹ", "ㅜ"]
+    },
+    {
+      "letter": "무",
+      "name": "무",
+      "sound": null,
+      "example": null,
+      "image": ["🌈", "🌈", "🌈"],
+      "meaning": ["무지개의 무", "무지개의 무", "무지개의 무"],
+      "components": ["ㅁ", "ㅜ"]
+    },
+    {
+      "letter": "부",
+      "name": "부",
+      "sound": null,
+      "example": null,
+      "image": ["🦉", "🦉", "🦉"],
+      "meaning": ["부엉이의 부", "부엉이의 부", "부엉이의 부"],
+      "components": ["ㅂ", "ㅜ"]
+    },
+    {
+      "letter": "수",
+      "name": "수",
+      "sound": null,
+      "example": null,
+      "image": ["🍉", "🍉", "🍉"],
+      "meaning": ["수박의 수", "수박의 수", "수박의 수"],
+      "components": ["ㅅ", "ㅜ"]
+    },
+    {
+      "letter": "우",
+      "name": "우",
+      "sound": null,
+      "example": null,
+      "image": ["🥛", "🥛", "🥛"],
+      "meaning": ["우유의 우", "우유의 우", "우유의 우"],
+      "components": ["ㅇ", "ㅜ"]
+    },
+    {
+      "letter": "주",
+      "name": "주",
+      "sound": null,
+      "example": null,
+      "image": ["🧃", "🧃", "🧃"],
+      "meaning": ["주스의 주", "주스의 주", "주스의 주"],
+      "components": ["ㅈ", "ㅜ"]
+    },
+    {
+      "letter": "추",
+      "name": "추",
+      "sound": null,
+      "example": null,
+      "image": ["🥶", "🥶", "🥶"],
+      "meaning": ["추위의 추", "추위의 추", "추위의 추"],
+      "components": ["ㅊ", "ㅜ"]
+    },
+    {
+      "letter": "쿠",
+      "name": "쿠",
+      "sound": null,
+      "example": null,
+      "image": ["🍪", "🍪", "🍪"],
+      "meaning": ["쿠키의 쿠", "쿠키의 쿠", "쿠키의 쿠"],
+      "components": ["ㅋ", "ㅜ"]
+    },
+    {
+      "letter": "투",
+      "name": "투",
+      "sound": null,
+      "example": null,
+      "image": ["🔍", "🔍", "🔍"],
+      "meaning": ["투명의 투", "투명의 투", "투명의 투"],
+      "components": ["ㅌ", "ㅜ"]
+    },
+    {
+      "letter": "푸",
+      "name": "푸",
+      "sound": null,
+      "example": null,
+      "image": ["💙", "💙", "💙"],
+      "meaning": ["푸른의 푸", "푸른의 푸", "푸른의 푸"],
+      "components": ["ㅍ", "ㅜ"]
+    },
+    {
+      "letter": "후",
+      "name": "후",
+      "sound": null,
+      "example": null,
+      "image": ["🌶️", "🌶️", "🌶️"],
+      "meaning": ["후추의 후", "후추의 후", "후추의 후"],
+      "components": ["ㅎ", "ㅜ"]
+    },
+    {
+      "letter": "그",
+      "name": "그",
+      "sound": null,
+      "example": null,
+      "image": ["🖼️", "🖼️", "🖼️"],
+      "meaning": ["그림의 그", "그림의 그", "그림의 그"],
+      "components": ["ㄱ", "ㅡ"]
+    },
+    {
+      "letter": "느",
+      "name": "느",
+      "sound": null,
+      "example": null,
+      "image": ["‼️", "‼️", "‼️"],
+      "meaning": ["느낌의 느", "느낌의 느", "느낌의 느"],
+      "components": ["ㄴ", "ㅡ"]
+    },
+    {
+      "letter": "드",
+      "name": "드",
+      "sound": null,
+      "example": null,
+      "image": ["🥁", "🥁", "🥁"],
+      "meaning": ["드럼의 드", "드럼의 드", "드럼의 드"],
+      "components": ["ㄷ", "ㅡ"]
+    },
+    {
+      "letter": "르",
+      "name": "르",
+      "sound": null,
+      "example": null,
+      "image": ["🎨", "🎨", "🎨"],
+      "meaning": ["르네상스의 르", "르네상스의 르", "르네상스의 르"],
+      "components": ["ㄹ", "ㅡ"]
+    },
+    {
+      "letter": "므",
+      "name": "므",
+      "sound": null,
+      "example": null,
+      "image": ["🍳", "🍳", "🍳"],
+      "meaning": ["오므라이스의 므", "오므라이스의 므", "오므라이스의 므"],
+      "components": ["ㅁ", "ㅡ"]
+    },
+    {
+      "letter": "브",
+      "name": "브",
+      "sound": null,
+      "example": null,
+      "image": ["🥦", "🥦", "🥦"],
+      "meaning": ["브로콜리의 브", "브로콜리의 브", "브로콜리의 브"],
+      "components": ["ㅂ", "ㅡ"]
+    },
+    {
+      "letter": "스",
+      "name": "스",
+      "sound": null,
+      "example": null,
+      "image": ["⛷️", "⛷️", "⛷️"],
+      "meaning": ["스키의 스", "스키의 스", "스키의 스"],
+      "components": ["ㅅ", "ㅡ"]
+    },
+    {
+      "letter": "으",
+      "name": "으",
+      "sound": null,
+      "example": null,
+      "image": ["👍", "👍", "👍"],
+      "meaning": ["으뜸의 으", "으뜸의 으", "으뜸의 으"],
+      "components": ["ㅇ", "ㅡ"]
+    },
+    {
+      "letter": "즈",
+      "name": "즈",
+      "sound": null,
+      "example": null,
+      "image": ["🧀", "🧀", "🧀"],
+      "meaning": ["치즈의 즈 ", "치즈의 즈", "치즈의 즈"],
+      "components": ["ㅈ", "ㅡ"]
+    },
+    {
+      "letter": "츠",
+      "name": "츠",
+      "sound": null,
+      "example": null,
+      "image": ["👔", "👔", "👔"],
+      "meaning": ["셔츠의 츠", "셔츠의 츠", "셔츠의 츠"],
+      "components": ["ㅊ", "ㅡ"]
+    },
+    {
+      "letter": "크",
+      "name": "크",
+      "sound": null,
+      "example": null,
+      "image": ["🖍️", "🖍️", "🖍️"],
+      "meaning": ["크레용의 크", "크레용의 크", "크레용의 크"],
+      "components": ["ㅋ", "ㅡ"]
+    },
+    {
+      "letter": "트",
+      "name": "트",
+      "sound": null,
+      "example": null,
+      "image": ["🚛", "🚛", "🚛"],
+      "meaning": ["트럭의 트", "트럭의 트", "트럭의 트"],
+      "components": ["ㅌ", "ㅡ"]
+    },
+    {
+      "letter": "프",
+      "name": "프",
+      "sound": null,
+      "example": null,
+      "image": ["🖨️", "🖨️", "🖨️"],
+      "meaning": ["프린터의 프", "프린터의 프", "프린터의 프"],
+      "components": ["ㅍ", "ㅡ"]
+    },
+    {
+      "letter": "흐",
+      "name": "흐",
+      "sound": null,
+      "example": null,
+      "image": ["☁️", "☁️", "☁️"],
+      "meaning": ["흐린의 흐", "흐린의 흐", "흐린의 흐"],
+      "components": ["ㅎ", "ㅡ"]
+    },
+    {
+      "letter": "기",
+      "name": "기",
+      "sound": null,
+      "example": null,
+      "image": ["🚂", "🚂", "🚂"],
+      "meaning": ["기차의 기", "기차의 기", "기차의 기"],
+      "components": ["ㄱ", "ㅣ"]
+    },
+    {
+      "letter": "니",
+      "name": "니",
+      "sound": null,
+      "example": null,
+      "image": ["🧣", "🧣", "🧣"],
+      "meaning": ["니트의 니", "니트의 니", "니트의 니"],
+      "components": ["ㄴ", "ㅣ"]
+    },
+    {
+      "letter": "디",
+      "name": "디",
+      "sound": null,
+      "example": null,
+      "image": ["🧁", "🧁", "🧁"],
+      "meaning": ["디저트의 디", "디저트의 디", "디저트의 디"],
+      "components": ["ㄷ", "ㅣ"]
+    },
+    {
+      "letter": "리",
+      "name": "리",
+      "sound": null,
+      "example": null,
+      "image": ["🎀", "🎀", "🎀"],
+      "meaning": ["리본의 리", "리본의 리", "리본의 리"],
+      "components": ["ㄹ", "ㅣ"]
+    },
+    {
+      "letter": "미",
+      "name": "미",
+      "sound": null,
+      "example": null,
+      "image": ["😊", "😊", "😊"],
+      "meaning": ["미소의 미", "미소의 미", "미소의 미"],
+      "components": ["ㅁ", "ㅣ"]
+    },
+    {
+      "letter": "비",
+      "name": "비",
+      "sound": null,
+      "example": null,
+      "image": ["✈️", "✈️", "✈️"],
+      "meaning": ["비행기의 비", "비행기의 비", "비행기의 비"],
+      "components": ["ㅂ", "ㅣ"]
+    },
+    {
+      "letter": "시",
+      "name": "시",
+      "sound": null,
+      "example": null,
+      "image": ["⏰", "⏰", "⏰"],
+      "meaning": ["시계의 시", "시계의 시", "시계의 시"],
+      "components": ["ㅅ", "ㅣ"]
+    },
+    {
+      "letter": "이",
+      "name": "이",
+      "sound": null,
+      "example": null,
+      "image": ["🦷", "🦷", "🦷"],
+      "meaning": ["이빨의 이", "이빨의 이", "이빨의 이"],
+      "components": ["ㅇ", "ㅣ"]
+    },
+    {
+      "letter": "지",
+      "name": "지",
+      "sound": null,
+      "example": null,
+      "image": ["🌍", "🌍", "🌍"],
+      "meaning": ["지구의 지", "지구의 지", "지구의 지"],
+      "components": ["ㅈ", "ㅣ"]
+    },
+    {
+      "letter": "치",
+      "name": "치",
+      "sound": null,
+      "example": null,
+      "image": ["🍗", "🍗", "🍗"],
+      "meaning": ["치킨의 치", "치킨의 치", "치킨의 치"],
+      "components": ["ㅊ", "ㅣ"]
+    },
+    {
+      "letter": "키",
+      "name": "키",
+      "sound": null,
+      "example": null,
+      "image": ["⌨️", "⌨️", "⌨️"],
+      "meaning": ["키보드의 키", "키보드의 키", "키보드의 키"],
+      "components": ["ㅋ", "ㅣ"]
+    },
+    {
+      "letter": "티",
+      "name": "티",
+      "sound": null,
+      "example": null,
+      "image": ["👕", "👕", "👕"],
+      "meaning": ["티셔츠의 티", "티셔츠의 티", "티셔츠의 티"],
+      "components": ["ㅌ", "ㅣ"]
+    },
+    {
+      "letter": "피",
+      "name": "피",
+      "sound": null,
+      "example": null,
+      "image": ["🎹", "🎹", "🎹"],
+      "meaning": ["피아노의 피", "피아노의 피", "피아노의 피"],
+      "components": ["ㅍ", "ㅣ"]
+    },
+    {
+      "letter": "히",
+      "name": "히",
+      "sound": null,
+      "example": null,
+      "image": ["🔥", "🔥", "🔥"],
+      "meaning": ["히터의 히", "히터의 히", "히터의 히"],
+      "components": ["ㅎ", "ㅣ"]
+    },
+    {
+      "letter": "까",
+      "name": "까",
+      "sound": null,
+      "example": null,
+      "image": ["🐦‍⬛", "🐦‍⬛", "🐦‍⬛"],
+      "meaning": ["까마귀의 까", "까마귀의 까", "까마귀의 까"],
+      "components": ["ㄲ", "ㅏ"]
+    },
+    {
+      "letter": "따",
+      "name": "따",
+      "sound": null,
+      "example": null,
+      "image": ["🔥", "🔥", "🔥"],
+      "meaning": ["따뜻한의 따", "따뜻한의 따", "따뜻한의 따"],
+      "components": ["ㄸ", "ㅏ"]
+    },
+    {
+      "letter": "빠",
+      "name": "빠",
+      "sound": null,
+      "example": null,
+      "image": ["🚄", "🚄", "🚄"],
+      "meaning": ["빠른의 빠", "빠른의 빠", "빠른의 빠"],
+      "components": ["ㅃ", "ㅏ"]
+    },
+    {
+      "letter": "싸",
+      "name": "싸",
+      "sound": null,
+      "example": null,
+      "image": ["💰", "💰", "💰"],
+      "meaning": ["싸다의 싸", "싸다의 싸", "싸다의 싸"],
+      "components": ["ㅆ", "ㅏ"]
+    },
+    {
+      "letter": "짜",
+      "name": "짜",
+      "sound": null,
+      "example": null,
+      "image": ["🍝", "🍝", "🍝"],
+      "meaning": ["짜장면의 짜", "짜장면의 짜", "짜장면의 짜"],
+      "components": ["ㅉ", "ㅏ"]
+    },
+    {
+      "letter": "꺼",
+      "name": "꺼",
+      "sound": null,
+      "example": null,
+      "image": ["🔌", "🔌", "🔌"],
+      "meaning": ["꺼지다의 꺼", "꺼지다의 꺼", "꺼지다의 꺼"],
+      "components": ["ㄲ", "ㅓ"]
+    },
+    {
+      "letter": "떠",
+      "name": "떠",
+      "sound": null,
+      "example": null,
+      "image": ["🚀", "🚀", "🚀"],
+      "meaning": ["떠나다의 떠", "떠나다의 떠", "떠나다의 떠"],
+      "components": ["ㄸ", "ㅓ"]
+    },
+    {
+      "letter": "뻐",
+      "name": "뻐",
+      "sound": null,
+      "example": null,
+      "image": ["😤", "😤", "😤"],
+      "meaning": ["뻔뻔한의 뻐", "뻔뻔한의 뻐", "뻔뻔한의 뻐"],
+      "components": ["ㅃ", "ㅓ"]
+    },
+    {
+      "letter": "써",
+      "name": "써",
+      "sound": null,
+      "example": null,
+      "image": ["⭕", "⭕", "⭕"],
+      "meaning": ["써클의 써", "써클의 써", "써클의 써"],
+      "components": ["ㅆ", "ㅓ"]
+    },
+    {
+      "letter": "쩌",
+      "name": "쩌",
+      "sound": null,
+      "example": null,
+      "image": ["📢", "📢", "📢"],
+      "meaning": ["쩌렁쩌렁의 쩌", "쩌렁쩌렁의 쩌", "쩌렁쩌렁의 쩌"],
+      "components": ["ㅉ", "ㅓ"]
+    },
+    {
+      "letter": "꼬",
+      "name": "꼬",
+      "sound": null,
+      "example": null,
+      "image": ["🦊", "🦊", "🦊"],
+      "meaning": ["꼬리의 꼬", "꼬리의 꼬", "꼬리의 꼬"],
+      "components": ["ㄲ", "ㅗ"]
+    },
+    {
+      "letter": "또",
+      "name": "또",
+      "sound": null,
+      "example": null,
+      "image": ["🔄", "🔄", "🔄"],
+      "meaning": ["또의 또", "또의 또", "또의 또"],
+      "components": ["ㄸ", "ㅗ"]
+    },
+    {
+      "letter": "뽀",
+      "name": "뽀",
+      "sound": null,
+      "example": null,
+      "image": ["🫧", "🫧", "🫧"],
+      "meaning": ["뽀글뽀글의 뽀", "뽀글뽀글의 뽀", "뽀글뽀글의 뽀"],
+      "components": ["ㅃ", "ㅗ"]
+    },
+    {
+      "letter": "쏘",
+      "name": "쏘",
+      "sound": null,
+      "example": null,
+      "image": ["🏹", "🏹", "🏹"],
+      "meaning": ["쏘다의 쏘", "쏘다의 쏘", "쏘다의 쏘"],
+      "components": ["ㅆ", "ㅗ"]
+    },
+    {
+      "letter": "쪼",
+      "name": "쪼",
+      "sound": null,
+      "example": null,
+      "image": ["🔨", "🔨", "🔨"],
+      "meaning": ["쪼개다의 쪼", "쪼개다의 쪼", "쪼개다의 쪼"],
+      "components": ["ㅉ", "ㅗ"]
+    },
+    {
+      "letter": "꾸",
+      "name": "꾸",
+      "sound": null,
+      "example": null,
+      "image": ["💄", "💄", "💄"],
+      "meaning": ["꾸미다의 꾸", "꾸미다의 꾸", "꾸미다의 꾸"],
+      "components": ["ㄲ", "ㅜ"]
+    },
+    {
+      "letter": "뚜",
+      "name": "뚜",
+      "sound": null,
+      "example": null,
+      "image": ["🎩", "🎩", "🎩"],
+      "meaning": ["뚜껑의 뚜", "뚜껑의 뚜", "뚜껑의 뚜"],
+      "components": ["ㄸ", "ㅜ"]
+    },
+    {
+      "letter": "뿌",
+      "name": "뿌",
+      "sound": null,
+      "example": null,
+      "image": ["🌱", "🌱", "🌱"],
+      "meaning": ["뿌리의 뿌", "뿌리의 뿌", "뿌리의 뿌"],
+      "components": ["ㅃ", "ㅜ"]
+    },
+    {
+      "letter": "쑤",
+      "name": "쑤",
+      "sound": null,
+      "example": null,
+      "image": ["💉", "💉", "💉"],
+      "meaning": ["쑤시다의 쑤", "쑤시다의 쑤", "쑤시다의 쑤"],
+      "components": ["ㅆ", "ㅜ"]
+    },
+    {
+      "letter": "쭈",
+      "name": "쭈",
+      "sound": null,
+      "example": null,
+      "image": ["🌰", "🌰", "🌰"],
+      "meaning": ["쭈글쭈글의 쭈", "쭈글쭈글의 쭈", "쭈글쭈글의 쭈"],
+      "components": ["ㅉ", "ㅜ"]
+    },
+    {
+      "letter": "끄",
+      "name": "끄",
+      "sound": null,
+      "example": null,
+      "image": ["🔌", "🔌", "🔌"],
+      "meaning": ["끄다의 끄", "끄다의 끄", "끄다의 끄"],
+      "components": ["ㄲ", "ㅡ"]
+    },
+    {
+      "letter": "뜨",
+      "name": "뜨",
+      "sound": null,
+      "example": null,
+      "image": ["🔥", "🔥", "🔥"],
+      "meaning": ["뜨거운의 뜨", "뜨거운의 뜨", "뜨거운의 뜨"],
+      "components": ["ㄸ", "ㅡ"]
+    },
+    {
+      "letter": "쓰",
+      "name": "쓰",
+      "sound": null,
+      "example": null,
+      "image": ["✏️", "✏️", "✏️"],
+      "meaning": ["쓰다의 쓰", "쓰다의 쓰", "쓰다의 쓰"],
+      "components": ["ㅆ", "ㅡ"]
+    },
+    {
+      "letter": "끼",
+      "name": "끼",
+      "sound": null,
+      "example": null,
+      "image": ["👟", "👟", "👟"],
+      "meaning": ["끼다의 끼", "끼다의 끼", "끼다의 끼"],
+      "components": ["ㄲ", "ㅣ"]
+    },
+    {
+      "letter": "띠",
+      "name": "띠",
+      "sound": null,
+      "example": null,
+      "image": ["🎗️", "🎗️", "🎗️"],
+      "meaning": ["띠의 띠", "띠의 띠", "띠의 띠"],
+      "components": ["ㄸ", "ㅣ"]
+    },
+    {
+      "letter": "삐",
+      "name": "삐",
+      "sound": null,
+      "example": null,
+      "image": ["🚑", "🚑", "🚑"],
+      "meaning": ["삐뽀삐뽀의 삐", "삐뽀삐뽀의 삐", "삐뽀삐뽀의 삐"],
+      "components": ["ㅃ", "ㅣ"]
+    },
+    {
+      "letter": "씨",
+      "name": "씨",
+      "sound": null,
+      "example": null,
+      "image": ["🌰", "🌰", "🌰"],
+      "meaning": ["씨앗의 씨", "씨앗의 씨", "씨앗의 씨"],
+      "components": ["ㅆ", "ㅣ"]
+    },
+    {
+      "letter": "찌",
+      "name": "찌",
+      "sound": null,
+      "example": null,
+      "image": ["🍲", "🍲", "🍲"],
+      "meaning": ["찌다의 찌", "찌다의 찌", "찌다의 찌"],
+      "components": ["ㅉ", "ㅣ"]
+    },
+    {
+      "letter": "갸",
+      "name": "갸",
+      "sound": null,
+      "example": null,
+      "image": ["🤔", "🤔", "🤔"],
+      "meaning": ["갸웃의 갸", "갸웃의 갸", "갸웃의 갸"],
+      "components": ["ㄱ", "ㅑ"]
+    },
+    {
+      "letter": "냐",
+      "name": "냐",
+      "sound": null,
+      "example": null,
+      "image": ["🐱", "🐱", "🐱"],
+      "meaning": ["냐옹의 냐", "냐옹의 냐", "냐옹의 냐"],
+      "components": ["ㄴ", "ㅑ"]
+    },
+    {
+      "letter": "뱌",
+      "name": "뱌",
+      "sound": null,
+      "example": null,
+      "image": ["🏊", "🏊", "🏊"],
+      "meaning": ["뱌다의 뱌", "뱌다의 뱌", "뱌다의 뱌"],
+      "components": ["ㅂ", "ㅑ"]
+    },
+    {
+      "letter": "샤",
+      "name": "샤",
+      "sound": null,
+      "example": null,
+      "image": ["🚿", "🚿", "🚿"],
+      "meaning": ["샤워의 샤", "샤워의 샤", "샤워의 샤"],
+      "components": ["ㅅ", "ㅑ"]
+    },
+    {
+      "letter": "야",
+      "name": "야",
+      "sound": null,
+      "example": null,
+      "image": ["⚾", "⚾", "⚾"],
+      "meaning": ["야구의 야", "야구의 야", "야구의 야"],
+      "components": ["ㅇ", "ㅑ"]
+    },
+    {
+      "letter": "챠",
+      "name": "챠",
+      "sound": null,
+      "example": null,
+      "image": ["🇨🇳", "🇨🇳", "🇨🇳"],
+      "meaning": ["챠이나의 챠", "챠이나의 챠", "챠이나의 챠"],
+      "components": ["ㅊ", "ㅑ"]
+    },
+    {
+      "letter": "캬",
+      "name": "캬",
+      "sound": null,
+      "example": null,
+      "image": ["🍬", "🍬", "🍬"],
+      "meaning": ["캬라멜의 캬", "캬라멜의 캬", "캬라멜의 캬"],
+      "components": ["ㅋ", "ㅑ"]
+    },
+    {
+      "letter": "겨",
+      "name": "겨",
+      "sound": null,
+      "example": null,
+      "image": ["❄️", "❄️", "❄️"],
+      "meaning": ["겨울의 겨", "겨울의 겨", "겨울의 겨"],
+      "components": ["ㄱ", "ㅕ"]
+    },
+    {
+      "letter": "며",
+      "name": "며",
+      "sound": null,
+      "example": null,
+      "image": ["📅", "📅", "📅"],
+      "meaning": ["며칠의 며", "며칠의 며", "며칠의 며"],
+      "components": ["ㅁ", "ㅕ"]
+    },
+    {
+      "letter": "벼",
+      "name": "벼",
+      "sound": null,
+      "example": null,
+      "image": ["🌾", "🌾", "🌾"],
+      "meaning": ["벼의 벼", "벼의 벼", "벼의 벼"],
+      "components": ["ㅂ", "ㅕ"]
+    },
+    {
+      "letter": "셔",
+      "name": "셔",
+      "sound": null,
+      "example": null,
+      "image": ["👔", "👔", "👔"],
+      "meaning": ["셔츠의 셔", "셔츠의 셔", "셔츠의 셔"],
+      "components": ["ㅅ", "ㅕ"]
+    },
+    {
+      "letter": "여",
+      "name": "여",
+      "sound": null,
+      "example": null,
+      "image": ["🦊", "🦊", "🦊"],
+      "meaning": ["여우의 여", "여우의 여", "여우의 여"],
+      "components": ["ㅇ", "ㅕ"]
+    },
+    {
+      "letter": "쳐",
+      "name": "쳐",
+      "sound": null,
+      "example": null,
+      "image": ["👀", "👀", "👀"],
+      "meaning": ["쳐다보다의 쳐", "쳐다보다의 쳐", "쳐다보다의 쳐"],
+      "components": ["ㅊ", "ㅕ"]
+    },
+    {
+      "letter": "켜",
+      "name": "켜",
+      "sound": null,
+      "example": null,
+      "image": ["💡", "💡", "💡"],
+      "meaning": ["켜다의 켜", "켜다의 켜", "켜다의 켜"],
+      "components": ["ㅋ", "ㅕ"]
+    },
+    {
+      "letter": "펴",
+      "name": "펴",
+      "sound": null,
+      "example": null,
+      "image": ["📖", "📖", "📖"],
+      "meaning": ["펴다의 펴", "펴다의 펴", "펴다의 펴"],
+      "components": ["ㅍ", "ㅕ"]
+    },
+    {
+      "letter": "혀",
+      "name": "혀",
+      "sound": null,
+      "example": null,
+      "image": ["👅", "👅", "👅"],
+      "meaning": ["혀의 혀", "혀의 혀", "혀의 혀"],
+      "components": ["ㅎ", "ㅕ"]
+    },
+    {
+      "letter": "교",
+      "name": "교",
+      "sound": null,
+      "example": null,
+      "image": ["🏫", "🏫", "🏫"],
+      "meaning": ["교실의 교", "교실의 교", "교실의 교"],
+      "components": ["ㄱ", "ㅛ"]
+    },
+    {
+      "letter": "묘",
+      "name": "묘",
+      "sound": null,
+      "example": null,
+      "image": ["🤨", "🤨", "🤨"],
+      "meaning": ["묘한의 묘", "묘한의 묘", "묘한의 묘"],
+      "components": ["ㅁ", "ㅛ"]
+    },
+    {
+      "letter": "쇼",
+      "name": "쇼",
+      "sound": null,
+      "example": null,
+      "image": ["🎭", "🎭", "🎭"],
+      "meaning": ["쇼의 쇼", "쇼의 쇼", "쇼의 쇼"],
+      "components": ["ㅅ", "ㅛ"]
+    },
+    {
+      "letter": "요",
+      "name": "요",
+      "sound": null,
+      "example": null,
+      "image": ["🥛", "🥛", "🥛"],
+      "meaning": ["요구르트의 요", "요구르트의 요", "요구르트의 요"],
+      "components": ["ㅇ", "ㅛ"]
+    },
+    {
+      "letter": "표",
+      "name": "표",
+      "sound": null,
+      "example": null,
+      "image": ["🎫", "🎫", "🎫"],
+      "meaning": ["표의 표", "표의 표", "표의 표"],
+      "components": ["ㅍ", "ㅛ"]
+    },
+    {
+      "letter": "효",
+      "name": "효",
+      "sound": null,
+      "example": null,
+      "image": ["✨", "✨", "✨"],
+      "meaning": ["효과의 효", "효과의 효", "효과의 효"],
+      "components": ["ㅎ", "ㅛ"]
+    },
+    {
+      "letter": "규",
+      "name": "규",
+      "sound": null,
+      "example": null,
+      "image": ["📏", "📏", "📏"],
+      "meaning": ["규칙의 규", "규칙의 규", "규칙의 규"],
+      "components": ["ㄱ", "ㅠ"]
+    },
+    {
+      "letter": "뉴",
+      "name": "뉴",
+      "sound": null,
+      "example": null,
+      "image": ["📺", "📺", "📺"],
+      "meaning": ["뉴스의 뉴", "뉴스의 뉴", "뉴스의 뉴"],
+      "components": ["ㄴ", "ㅠ"]
+    },
+    {
+      "letter": "듀",
+      "name": "듀",
+      "sound": null,
+      "example": null,
+      "image": ["🎤", "🎤", "🎤"],
+      "meaning": ["듀엣의 듀", "듀엣의 듀", "듀엣의 듀"],
+      "components": ["ㄷ", "ㅠ"]
+    },
+    {
+      "letter": "뮤",
+      "name": "뮤",
+      "sound": null,
+      "example": null,
+      "image": ["🎵", "🎵", "🎵"],
+      "meaning": ["뮤직의 뮤", "뮤직의 뮤", "뮤직의 뮤"],
+      "components": ["ㅁ", "ㅠ"]
+    },
+    {
+      "letter": "뷰",
+      "name": "뷰",
+      "sound": null,
+      "example": null,
+      "image": ["💄", "💄", "💄"],
+      "meaning": ["뷰티의 뷰", "뷰티의 뷰", "뷰티의 뷰"],
+      "components": ["ㅂ", "ㅠ"]
+    },
+    {
+      "letter": "슈",
+      "name": "슈",
+      "sound": null,
+      "example": null,
+      "image": ["🦸", "🦸", "🦸"],
+      "meaning": ["슈퍼의 슈", "슈퍼의 슈", "슈퍼의 슈"],
+      "components": ["ㅅ", "ㅠ"]
+    },
+    {
+      "letter": "유",
+      "name": "유",
+      "sound": null,
+      "example": null,
+      "image": ["🪟", "🪟", "🪟"],
+      "meaning": ["유리의 유", "유리의 유", "유리의 유"],
+      "components": ["ㅇ", "ㅠ"]
+    },
+    {
+      "letter": "큐",
+      "name": "큐",
+      "sound": null,
+      "example": null,
+      "image": ["🎲", "🎲", "🎲"],
+      "meaning": ["큐브의 큐", "큐브의 큐", "큐브의 큐"],
+      "components": ["ㅋ", "ㅠ"]
+    },
+    {
+      "letter": "튜",
+      "name": "튜",
+      "sound": null,
+      "example": null,
+      "image": ["🧴", "🧴", "🧴"],
+      "meaning": ["튜브의 튜", "튜브의 튜", "튜브의 튜"],
+      "components": ["ㅌ", "ㅠ"]
+    },
+    {
+      "letter": "퓨",
+      "name": "퓨",
+      "sound": null,
+      "example": null,
+      "image": ["🎭", "🎭", "🎭"],
+      "meaning": ["퓨전의 퓨", "퓨전의 퓨", "퓨전의 퓨"],
+      "components": ["ㅍ", "ㅠ"]
+    },
+    {
+      "letter": "휴",
+      "name": "휴",
+      "sound": null,
+      "example": null,
+      "image": ["🏖️", "🏖️", "🏖️"],
+      "meaning": ["휴가의 휴", "휴가의 휴", "휴가의 휴"],
+      "components": ["ㅎ", "ㅠ"]
+    }
+  ],
+  "word": [
+    {
+      "letter": "가방",
+      "name": "가방",
+      "sound": null,
+      "example": null,
+      "image": ["🎒"],
+      "meaning": ["책을 넣는 것"],
+      "components": ["가", "방"]
+    },
+    {
+      "letter": "고양이",
+      "name": "고양이",
+      "sound": null,
+      "example": null,
+      "image": ["🐈"],
+      "meaning": ["야옹하는 동물"],
+      "components": ["고", "양", "이"]
+    },
+    {
+      "letter": "기차",
+      "name": "기차",
+      "sound": null,
+      "example": null,
+      "image": ["🚂"],
+      "meaning": ["칙칙폭폭 달리는 것"],
+      "components": ["기", "차"]
+    },
+    {
+      "letter": "구름",
+      "name": "구름",
+      "sound": null,
+      "example": null,
+      "image": ["☁️"],
+      "meaning": ["하늘에 있는 하얀 것"],
+      "components": ["구", "름"]
+    },
+    {
+      "letter": "거북이",
+      "name": "거북이",
+      "sound": null,
+      "example": null,
+      "image": ["🐢"],
+      "meaning": ["느리게 걷는 동물"],
+      "components": ["거", "북", "이"]
+    },
+    {
+      "letter": "개",
+      "name": "개",
+      "sound": null,
+      "example": null,
+      "image": ["🐶"],
+      "meaning": ["멍멍하는 동물"],
+      "components": ["개"]
+    },
+    {
+      "letter": "과자",
+      "name": "과자",
+      "sound": null,
+      "example": null,
+      "image": ["🍪"],
+      "meaning": ["바삭바삭한 달콤한 음식"],
+      "components": ["과", "자"]
+    },
+    {
+      "letter": "감",
+      "name": "감",
+      "sound": null,
+      "example": null,
+      "image": ["🍊"],
+      "meaning": ["주황색 달콤한 과일"],
+      "components": ["감"]
+    },
+    {
+      "letter": "가위",
+      "name": "가위",
+      "sound": null,
+      "example": null,
+      "image": ["✂️"],
+      "meaning": ["종이를 자르는 도구"],
+      "components": ["가", "위"]
+    },
+    {
+      "letter": "거울",
+      "name": "거울",
+      "sound": null,
+      "example": null,
+      "image": ["🪞"],
+      "meaning": ["내 모습을 볼 수 있는 것"],
+      "components": ["거", "울"]
+    },
+    {
+      "letter": "계단",
+      "name": "계단",
+      "sound": null,
+      "example": null,
+      "image": ["🪜"],
+      "meaning": ["위아래로 다니는 것"],
+      "components": ["계", "단"]
+    },
+    {
+      "letter": "곰",
+      "name": "곰",
+      "sound": null,
+      "example": null,
+      "image": ["🐻"],
+      "meaning": ["크고 털이 많은 동물"],
+      "components": ["곰"]
+    },
+    {
+      "letter": "나비",
+      "name": "나비",
+      "sound": null,
+      "example": null,
+      "image": ["🦋"],
+      "meaning": ["예쁜 날개가 있는 곤충"],
+      "components": ["나", "비"]
+    },
+    {
+      "letter": "누나",
+      "name": "누나",
+      "sound": null,
+      "example": null,
+      "image": ["👩"],
+      "meaning": ["남자 동생이 부르는 언니"],
+      "components": ["누", "나"]
+    },
+    {
+      "letter": "노래",
+      "name": "노래",
+      "sound": null,
+      "example": null,
+      "image": ["🎵"],
+      "meaning": ["라라라 부르는 것"],
+      "components": ["노", "래"]
+    },
+    {
+      "letter": "눈",
+      "name": "눈",
+      "sound": null,
+      "example": null,
+      "image": ["👁️"],
+      "meaning": ["볼 때 사용하는 것"],
+      "components": ["눈"]
+    },
+    {
+      "letter": "눈사람",
+      "name": "눈사람",
+      "sound": null,
+      "example": null,
+      "image": ["⛄"],
+      "meaning": ["겨울에 만드는 하얀 사람"],
+      "components": ["눈", "사", "람"]
+    },
+    {
+      "letter": "나무",
+      "name": "나무",
+      "sound": null,
+      "example": null,
+      "image": ["🌳"],
+      "meaning": ["크고 초록색인 식물"],
+      "components": ["나", "무"]
+    },
+    {
+      "letter": "냉장고",
+      "name": "냉장고",
+      "sound": null,
+      "example": null,
+      "image": ["🧊"],
+      "meaning": ["음식을 차갑게 보관하는 곳"],
+      "components": ["냉", "장", "고"]
+    },
+    {
+      "letter": "놀이터",
+      "name": "놀이터",
+      "sound": null,
+      "example": null,
+      "image": ["🛝"],
+      "meaning": ["아이들이 노는 곳"],
+      "components": ["놀", "이", "터"]
+    },
+    {
+      "letter": "낮",
+      "name": "낮",
+      "sound": null,
+      "example": null,
+      "image": ["☀️"],
+      "meaning": ["해가 있는 밝은 시간"],
+      "components": ["낮"]
+    },
+    {
+      "letter": "날개",
+      "name": "날개",
+      "sound": null,
+      "example": null,
+      "image": ["🪶"],
+      "meaning": ["새가 날 때 사용하는 것"],
+      "components": ["날", "개"]
+    },
+    {
+      "letter": "네모",
+      "name": "네모",
+      "sound": null,
+      "example": null,
+      "image": ["🟩"],
+      "meaning": ["네 개의 같은 변을 가진 모양"],
+      "components": ["네", "모"]
+    },
+    {
+      "letter": "넥타이",
+      "name": "넥타이",
+      "sound": null,
+      "example": null,
+      "image": ["👔"],
+      "meaning": ["목에 매는 긴 천"],
+      "components": ["넥", "타", "이"]
+    },
+    {
+      "letter": "다리",
+      "name": "다리",
+      "sound": null,
+      "example": null,
+      "image": ["🦵"],
+      "meaning": ["걸을 때 사용하는 몸의 부분"],
+      "components": ["다", "리"]
+    },
+    {
+      "letter": "도넛",
+      "name": "도넛",
+      "sound": null,
+      "example": null,
+      "image": ["🍩"],
+      "meaning": ["둥글고 달콤한 빵"],
+      "components": ["도", "넛"]
+    },
+    {
+      "letter": "두부",
+      "name": "두부",
+      "sound": null,
+      "example": null,
+      "image": ["🧈"],
+      "meaning": ["콩으로 만든 하얀 음식"],
+      "components": ["두", "부"]
+    },
+    {
+      "letter": "돼지",
+      "name": "돼지",
+      "sound": null,
+      "example": null,
+      "image": ["🐷"],
+      "meaning": ["꿀꿀하는 분홍 동물"],
+      "components": ["돼", "지"]
+    },
+    {
+      "letter": "달",
+      "name": "달",
+      "sound": null,
+      "example": null,
+      "image": ["🌙"],
+      "meaning": ["밤하늘의 밝은 것"],
+      "components": ["달"]
+    },
+    {
+      "letter": "달걀",
+      "name": "달걀",
+      "sound": null,
+      "example": null,
+      "image": ["🥚"],
+      "meaning": ["닭이 낳는 하얀 것"],
+      "components": ["달", "걀"]
+    },
+    {
+      "letter": "딸기",
+      "name": "딸기",
+      "sound": null,
+      "example": null,
+      "image": ["🍓"],
+      "meaning": ["빨간 작은 과일"],
+      "components": ["딸", "기"]
+    },
+    {
+      "letter": "당근",
+      "name": "당근",
+      "sound": null,
+      "example": null,
+      "image": ["🥕"],
+      "meaning": ["주황색 긴 채소"],
+      "components": ["당", "근"]
+    },
+    {
+      "letter": "도마",
+      "name": "도마",
+      "sound": null,
+      "example": null,
+      "image": ["🔪"],
+      "meaning": ["음식을 자를 때 사용하는 판"],
+      "components": ["도", "마"]
+    },
+    {
+      "letter": "동전",
+      "name": "동전",
+      "sound": null,
+      "example": null,
+      "image": ["🪙"],
+      "meaning": ["작고 둥근 돈"],
+      "components": ["동", "전"]
+    },
+    {
+      "letter": "독수리",
+      "name": "독수리",
+      "sound": null,
+      "example": null,
+      "image": ["🦅"],
+      "meaning": ["큰 새"],
+      "components": ["독", "수", "리"]
+    },
+    {
+      "letter": "드럼",
+      "name": "드럼",
+      "sound": null,
+      "example": null,
+      "image": ["🥁"],
+      "meaning": ["두드려서 소리내는 악기"],
+      "components": ["드", "럼"]
+    },
+    {
+      "letter": "라면",
+      "name": "라면",
+      "sound": null,
+      "example": null,
+      "image": ["🍜"],
+      "meaning": ["맛있는 면 요리"],
+      "components": ["라", "면"]
+    },
+    {
+      "letter": "로봇",
+      "name": "로봇",
+      "sound": null,
+      "example": null,
+      "image": ["🤖"],
+      "meaning": ["사람처럼 움직이는 기계"],
+      "components": ["로", "봇"]
+    },
+    {
+      "letter": "리본",
+      "name": "리본",
+      "sound": null,
+      "example": null,
+      "image": ["🎀"],
+      "meaning": ["머리에 매는 예쁜 것"],
+      "components": ["리", "본"]
+    },
+    {
+      "letter": "레몬",
+      "name": "레몬",
+      "sound": null,
+      "example": null,
+      "image": ["🍋"],
+      "meaning": ["신맛이 나는 노란 과일"],
+      "components": ["레", "몬"]
+    },
+    {
+      "letter": "라디오",
+      "name": "라디오",
+      "sound": null,
+      "example": null,
+      "image": ["📻"],
+      "meaning": ["노래가 나오는 기계"],
+      "components": ["라", "디", "오"]
+    },
+    {
+      "letter": "로켓",
+      "name": "로켓",
+      "sound": null,
+      "example": null,
+      "image": ["🚀"],
+      "meaning": ["우주로 날아가는 것"],
+      "components": ["로", "켓"]
+    },
+    {
+      "letter": "라이온",
+      "name": "라이온",
+      "sound": null,
+      "example": null,
+      "image": ["🦁"],
+      "meaning": ["갈기가 있는 큰 동물"],
+      "components": ["라", "이", "온"]
+    },
+    {
+      "letter": "로션",
+      "name": "로션",
+      "sound": null,
+      "example": null,
+      "image": ["🧴"],
+      "meaning": ["피부에 바르는 것"],
+      "components": ["로", "션"]
+    },
+    {
+      "letter": "리모컨",
+      "name": "리모컨",
+      "sound": null,
+      "example": null,
+      "image": ["📱"],
+      "meaning": ["텔레비전을 조작하는 것"],
+      "components": ["리", "모", "컨"]
+    },
+    {
+      "letter": "라운드",
+      "name": "라운드",
+      "sound": null,
+      "example": null,
+      "image": ["⭕"],
+      "meaning": ["둥근 모양"],
+      "components": ["라", "운", "드"]
+    },
+    {
+      "letter": "런닝",
+      "name": "런닝",
+      "sound": null,
+      "example": null,
+      "image": ["🏃"],
+      "meaning": ["빨리 달리는 것"],
+      "components": ["런", "닝"]
+    },
+    {
+      "letter": "레스토랑",
+      "name": "레스토랑",
+      "sound": null,
+      "example": null,
+      "image": ["🍽️"],
+      "meaning": ["음식을 파는 곳"],
+      "components": ["레", "스", "토", "랑"]
+    },
+    {
+      "letter": "마음",
+      "name": "마음",
+      "sound": null,
+      "example": null,
+      "image": ["❤️"],
+      "meaning": ["사랑하는 기분"],
+      "components": ["마", "음"]
+    },
+    {
+      "letter": "모자",
+      "name": "모자",
+      "sound": null,
+      "example": null,
+      "image": ["👒"],
+      "meaning": ["머리에 쓰는 것"],
+      "components": ["모", "자"]
+    },
+    {
+      "letter": "무지개",
+      "name": "무지개",
+      "sound": null,
+      "example": null,
+      "image": ["🌈"],
+      "meaning": ["비 온 후 하늘의 예쁜 색깔"],
+      "components": ["무", "지", "개"]
+    },
+    {
+      "letter": "미소",
+      "name": "미소",
+      "sound": null,
+      "example": null,
+      "image": ["😊"],
+      "meaning": ["기쁠 때 짓는 표정"],
+      "components": ["미", "소"]
+    },
+    {
+      "letter": "말",
+      "name": "말",
+      "sound": null,
+      "example": null,
+      "image": ["🐴"],
+      "meaning": ["히힝하는 동물"],
+      "components": ["말"]
+    },
+    {
+      "letter": "머리",
+      "name": "머리",
+      "sound": null,
+      "example": null,
+      "image": ["🗣️"],
+      "meaning": ["몸의 위쪽 부분"],
+      "components": ["머", "리"]
+    },
+    {
+      "letter": "메론",
+      "name": "메론",
+      "sound": null,
+      "example": null,
+      "image": ["🍈"],
+      "meaning": ["초록색 달콤한 과일"],
+      "components": ["메", "론"]
+    },
+    {
+      "letter": "목걸이",
+      "name": "목걸이",
+      "sound": null,
+      "example": null,
+      "image": ["📿"],
+      "meaning": ["목에 거는 예쁜 것"],
+      "components": ["목", "걸", "이"]
+    },
+    {
+      "letter": "망고",
+      "name": "망고",
+      "sound": null,
+      "example": null,
+      "image": ["🥭"],
+      "meaning": ["노란 달콤한 과일"],
+      "components": ["망", "고"]
+    },
+    {
+      "letter": "물고기",
+      "name": "물고기",
+      "sound": null,
+      "example": null,
+      "image": ["🐠"],
+      "meaning": ["물에서 사는 동물"],
+      "components": ["물", "고", "기"]
+    },
+    {
+      "letter": "마이크",
+      "name": "마이크",
+      "sound": null,
+      "example": null,
+      "image": ["🎤"],
+      "meaning": ["소리를 크게 만드는 것"],
+      "components": ["마", "이", "크"]
+    },
+    {
+      "letter": "매미",
+      "name": "매미",
+      "sound": null,
+      "example": null,
+      "image": ["🐛"],
+      "meaning": ["여름에 우는 곤충"],
+      "components": ["매", "미"]
+    },
+    {
+      "letter": "바다",
+      "name": "바다",
+      "sound": null,
+      "example": null,
+      "image": ["🌊"],
+      "meaning": ["넓고 푸른 물"],
+      "components": ["바", "다"]
+    },
+    {
+      "letter": "바나나",
+      "name": "바나나",
+      "sound": null,
+      "example": null,
+      "image": ["🍌"],
+      "meaning": ["노란 길쭉한 과일"],
+      "components": ["바", "나", "나"]
+    },
+    {
+      "letter": "비행기",
+      "name": "비행기",
+      "sound": null,
+      "example": null,
+      "image": ["✈️"],
+      "meaning": ["하늘을 나는 큰 기계"],
+      "components": ["비", "행", "기"]
+    },
+    {
+      "letter": "부엉이",
+      "name": "부엉이",
+      "sound": null,
+      "example": null,
+      "image": ["🦉"],
+      "meaning": ["밤에 우는 새"],
+      "components": ["부", "엉", "이"]
+    },
+    {
+      "letter": "버스",
+      "name": "버스",
+      "sound": null,
+      "example": null,
+      "image": ["🚌"],
+      "meaning": ["사람들이 타는 큰 차"],
+      "components": ["버", "스"]
+    },
+    {
+      "letter": "배",
+      "name": "배",
+      "sound": null,
+      "example": null,
+      "image": ["🍐"],
+      "meaning": ["달콤한 과일"],
+      "components": ["배"]
+    },
+    {
+      "letter": "빵",
+      "name": "빵",
+      "sound": null,
+      "example": null,
+      "image": ["🍞"],
+      "meaning": ["밀가루로 만든 음식"],
+      "components": ["빵"]
+    },
+    {
+      "letter": "볼펜",
+      "name": "볼펜",
+      "sound": null,
+      "example": null,
+      "image": ["🖊️"],
+      "meaning": ["글씨를 쓰는 도구"],
+      "components": ["볼", "펜"]
+    },
+    {
+      "letter": "방",
+      "name": "방",
+      "sound": null,
+      "example": null,
+      "image": ["🛏️"],
+      "meaning": ["잠을 자는 공간"],
+      "components": ["방"]
+    },
+    {
+      "letter": "벌",
+      "name": "벌",
+      "sound": null,
+      "example": null,
+      "image": ["🐝"],
+      "meaning": ["윙윙하며 꿀을 만드는 곤충"],
+      "components": ["벌"]
+    },
+    {
+      "letter": "별",
+      "name": "별",
+      "sound": null,
+      "example": null,
+      "image": ["⭐"],
+      "meaning": ["밤하늘에 반짝이는 것"],
+      "components": ["별"]
+    },
+    {
+      "letter": "보트",
+      "name": "보트",
+      "sound": null,
+      "example": null,
+      "image": ["⛵"],
+      "meaning": ["물에서 타는 작은 배"],
+      "components": ["보", "트"]
+    },
+    {
+      "letter": "사과",
+      "name": "사과",
+      "sound": null,
+      "example": null,
+      "image": ["🍎"],
+      "meaning": ["빨간 과일"],
+      "components": ["사", "과"]
+    },
+    {
+      "letter": "수박",
+      "name": "수박",
+      "sound": null,
+      "example": null,
+      "image": ["🍉"],
+      "meaning": ["여름에 먹는 시원한 과일"],
+      "components": ["수", "박"]
+    },
+    {
+      "letter": "시계",
+      "name": "시계",
+      "sound": null,
+      "example": null,
+      "image": ["⏰"],
+      "meaning": ["시간을 알려주는 것"],
+      "components": ["시", "계"]
+    },
+    {
+      "letter": "소",
+      "name": "소",
+      "sound": null,
+      "example": null,
+      "image": ["🐄"],
+      "meaning": ["음매하는 큰 동물"],
+      "components": ["소"]
+    },
+    {
+      "letter": "새",
+      "name": "새",
+      "sound": null,
+      "example": null,
+      "image": ["🐦"],
+      "meaning": ["하늘을 나는 동물"],
+      "components": ["새"]
+    },
+    {
+      "letter": "선생님",
+      "name": "선생님",
+      "sound": null,
+      "example": null,
+      "image": ["👨‍🏫"],
+      "meaning": ["공부를 가르쳐주는 분"],
+      "components": ["선", "생", "님"]
+    },
+    {
+      "letter": "사탕",
+      "name": "사탕",
+      "sound": null,
+      "example": null,
+      "image": ["🍬"],
+      "meaning": ["달콤한 작은 과자"],
+      "components": ["사", "탕"]
+    },
+    {
+      "letter": "숟가락",
+      "name": "숟가락",
+      "sound": null,
+      "example": null,
+      "image": ["🥄"],
+      "meaning": ["밥을 먹을 때 사용하는 것"],
+      "components": ["숟", "가", "락"]
+    },
+    {
+      "letter": "신발",
+      "name": "신발",
+      "sound": null,
+      "example": null,
+      "image": ["👟"],
+      "meaning": ["발에 신는 것"],
+      "components": ["신", "발"]
+    },
+    {
+      "letter": "사자",
+      "name": "사자",
+      "sound": null,
+      "example": null,
+      "image": ["🦁"],
+      "meaning": ["갈기가 있는 용감한 동물"],
+      "components": ["사", "자"]
+    },
+    {
+      "letter": "선풍기",
+      "name": "선풍기",
+      "sound": null,
+      "example": null,
+      "image": ["🌀"],
+      "meaning": ["바람을 만드는 기계"],
+      "components": ["선", "풍", "기"]
+    },
+    {
+      "letter": "슬리퍼",
+      "name": "슬리퍼",
+      "sound": null,
+      "example": null,
+      "image": ["🩴"],
+      "meaning": ["집에서 신는 편한 신발"],
+      "components": ["슬", "리", "퍼"]
+    },
+    {
+      "letter": "아기",
+      "name": "아기",
+      "sound": null,
+      "example": null,
+      "image": ["👶"],
+      "meaning": ["작고 귀여운 사람"],
+      "components": ["아", "기"]
+    },
+    {
+      "letter": "오리",
+      "name": "오리",
+      "sound": null,
+      "example": null,
+      "image": ["🦆"],
+      "meaning": ["꽥꽥하는 물새"],
+      "components": ["오", "리"]
+    },
+    {
+      "letter": "우유",
+      "name": "우유",
+      "sound": null,
+      "example": null,
+      "image": ["🥛"],
+      "meaning": ["하얀 맛있는 음료"],
+      "components": ["우", "유"]
+    },
+    {
+      "letter": "이빨",
+      "name": "이빨",
+      "sound": null,
+      "example": null,
+      "image": ["🦷"],
+      "meaning": ["음식을 씹는 하얀 것"],
+      "components": ["이", "빨"]
+    },
+    {
+      "letter": "엄마",
+      "name": "엄마",
+      "sound": null,
+      "example": null,
+      "image": ["👩"],
+      "meaning": ["나를 낳아주신 분"],
+      "components": ["엄", "마"]
+    },
+    {
+      "letter": "아빠",
+      "name": "아빠",
+      "sound": null,
+      "example": null,
+      "image": ["👨"],
+      "meaning": ["나를 사랑해주는 분"],
+      "components": ["아", "빠"]
+    },
+    {
+      "letter": "우산",
+      "name": "우산",
+      "sound": null,
+      "example": null,
+      "image": ["☂️"],
+      "meaning": ["비올 때 쓰는 것"],
+      "components": ["우", "산"]
+    },
+    {
+      "letter": "양파",
+      "name": "양파",
+      "sound": null,
+      "example": null,
+      "image": ["🧅"],
+      "meaning": ["요리할 때 넣는 매운 채소"],
+      "components": ["양", "파"]
+    },
+    {
+      "letter": "연필",
+      "name": "연필",
+      "sound": null,
+      "example": null,
+      "image": ["✏️"],
+      "meaning": ["글씨를 쓰는 도구"],
+      "components": ["연", "필"]
+    },
+    {
+      "letter": "얼음",
+      "name": "얼음",
+      "sound": null,
+      "example": null,
+      "image": ["🧊"],
+      "meaning": ["차가운 물"],
+      "components": ["얼", "음"]
+    },
+    {
+      "letter": "오렌지",
+      "name": "오렌지",
+      "sound": null,
+      "example": null,
+      "image": ["🍊"],
+      "meaning": ["신맛이 나는 주황색 과일"],
+      "components": ["오", "렌", "지"]
+    },
+    {
+      "letter": "앞치마",
+      "name": "앞치마",
+      "sound": null,
+      "example": null,
+      "image": ["👗"],
+      "meaning": ["요리할 때 입는 것"],
+      "components": ["앞", "치", "마"]
+    },
+    {
+      "letter": "자동차",
+      "name": "자동차",
+      "sound": null,
+      "example": null,
+      "image": ["🚗"],
+      "meaning": ["사람들이 타고 다니는 것"],
+      "components": ["자", "동", "차"]
+    },
+    {
+      "letter": "주스",
+      "name": "주스",
+      "sound": null,
+      "example": null,
+      "image": ["🧃"],
+      "meaning": ["과일로 만든 달콤한 음료"],
+      "components": ["주", "스"]
+    },
+    {
+      "letter": "지구",
+      "name": "지구",
+      "sound": null,
+      "example": null,
+      "image": ["🌍"],
+      "meaning": ["우리가 사는 둥근 세상"],
+      "components": ["지", "구"]
+    },
+    {
+      "letter": "장미",
+      "name": "장미",
+      "sound": null,
+      "example": null,
+      "image": ["🌹"],
+      "meaning": ["향기로운 예쁜 꽃"],
+      "components": ["장", "미"]
+    },
+    {
+      "letter": "집",
+      "name": "집",
+      "sound": null,
+      "example": null,
+      "image": ["🏠"],
+      "meaning": ["우리가 사는 곳"],
+      "components": ["집"]
+    },
+    {
+      "letter": "젓가락",
+      "name": "젓가락",
+      "sound": null,
+      "example": null,
+      "image": ["🥢"],
+      "meaning": ["음식을 집을 때 사용하는 것"],
+      "components": ["젓", "가", "락"]
+    },
+    {
+      "letter": "자전거",
+      "name": "자전거",
+      "sound": null,
+      "example": null,
+      "image": ["🚲"],
+      "meaning": ["페달을 밟아서 가는 것"],
+      "components": ["자", "전", "거"]
+    },
+    {
+      "letter": "잠",
+      "name": "잠",
+      "sound": null,
+      "example": null,
+      "image": ["😴"],
+      "meaning": ["밤에 자는 것"],
+      "components": ["잠"]
+    },
+    {
+      "letter": "지갑",
+      "name": "지갑",
+      "sound": null,
+      "example": null,
+      "image": ["👛"],
+      "meaning": ["돈을 넣어두는 것"],
+      "components": ["지", "갑"]
+    },
+    {
+      "letter": "장갑",
+      "name": "장갑",
+      "sound": null,
+      "example": null,
+      "image": ["🧤"],
+      "meaning": ["손에 끼는 것"],
+      "components": ["장", "갑"]
+    },
+    {
+      "letter": "조개",
+      "name": "조개",
+      "sound": null,
+      "example": null,
+      "image": ["🐚"],
+      "meaning": ["바다에 사는 딱딱한 껍질 동물"],
+      "components": ["조", "개"]
+    },
+    {
+      "letter": "종이",
+      "name": "종이",
+      "sound": null,
+      "example": null,
+      "image": ["📄"],
+      "meaning": ["글씨를 쓰거나 그림을 그리는 것"],
+      "components": ["종", "이"]
+    },
+    {
+      "letter": "치킨",
+      "name": "치킨",
+      "sound": null,
+      "example": null,
+      "image": ["🍗"],
+      "meaning": ["맛있는 닭고기"],
+      "components": ["치", "킨"]
+    },
+    {
+      "letter": "초콜릿",
+      "name": "초콜릿",
+      "sound": null,
+      "example": null,
+      "image": ["🍫"],
+      "meaning": ["달콤하고 갈색인 과자"],
+      "components": ["초", "콜", "릿"]
+    },
+    {
+      "letter": "책",
+      "name": "책",
+      "sound": null,
+      "example": null,
+      "image": ["📚"],
+      "meaning": ["읽는 것"],
+      "components": ["책"]
+    },
+    {
+      "letter": "친구",
+      "name": "친구",
+      "sound": null,
+      "example": null,
+      "image": ["👫"],
+      "meaning": ["함께 노는 사람"],
+      "components": ["친", "구"]
+    },
+    {
+      "letter": "칫솔",
+      "name": "칫솔",
+      "sound": null,
+      "example": null,
+      "image": ["🪥"],
+      "meaning": ["이를 닦는 것"],
+      "components": ["칫", "솔"]
+    },
+    {
+      "letter": "체리",
+      "name": "체리",
+      "sound": null,
+      "example": null,
+      "image": ["🍒"],
+      "meaning": ["빨간 작은 과일"],
+      "components": ["체", "리"]
+    },
+    {
+      "letter": "천장",
+      "name": "천장",
+      "sound": null,
+      "example": null,
+      "image": ["🏠"],
+      "meaning": ["방의 위쪽"],
+      "components": ["천", "장"]
+    },
+    {
+      "letter": "창문",
+      "name": "창문",
+      "sound": null,
+      "example": null,
+      "image": ["🪟"],
+      "meaning": ["밖을 볼 수 있는 투명한 것"],
+      "components": ["창", "문"]
+    },
+    {
+      "letter": "촛불",
+      "name": "촛불",
+      "sound": null,
+      "example": null,
+      "image": ["🕯️"],
+      "meaning": ["작은 불빛"],
+      "components": ["촛", "불"]
+    },
+    {
+      "letter": "치마",
+      "name": "치마",
+      "sound": null,
+      "example": null,
+      "image": ["👗"],
+      "meaning": ["여자가 입는 아래쪽 옷"],
+      "components": ["치", "마"]
+    },
+    {
+      "letter": "춤",
+      "name": "춤",
+      "sound": null,
+      "example": null,
+      "image": ["💃"],
+      "meaning": ["음악에 맞춰 몸을 움직이는 것"],
+      "components": ["춤"]
+    },
+    {
+      "letter": "축구",
+      "name": "축구",
+      "sound": null,
+      "example": null,
+      "image": ["⚽"],
+      "meaning": ["공을 발로 차는 운동"],
+      "components": ["축", "구"]
+    },
+    {
+      "letter": "코끼리",
+      "name": "코끼리",
+      "sound": null,
+      "example": null,
+      "image": ["🐘"],
+      "meaning": ["긴 코를 가진 큰 동물"],
+      "components": ["코", "끼", "리"]
+    },
+    {
+      "letter": "케이크",
+      "name": "케이크",
+      "sound": null,
+      "example": null,
+      "image": ["🎂"],
+      "meaning": ["생일에 먹는 달콤한 것"],
+      "components": ["케", "이", "크"]
+    },
+    {
+      "letter": "코",
+      "name": "코",
+      "sound": null,
+      "example": null,
+      "image": ["👃"],
+      "meaning": ["냄새를 맡는 것"],
+      "components": ["코"]
+    },
+    {
+      "letter": "컵",
+      "name": "컵",
+      "sound": null,
+      "example": null,
+      "image": ["☕"],
+      "meaning": ["물을 마실 때 사용하는 것"],
+      "components": ["컵"]
+    },
+    {
+      "letter": "키",
+      "name": "키",
+      "sound": null,
+      "example": null,
+      "image": ["🔑"],
+      "meaning": ["문을 여는 작은 도구"],
+      "components": ["키"]
+    },
+    {
+      "letter": "크레용",
+      "name": "크레용",
+      "sound": null,
+      "example": null,
+      "image": ["🖍️"],
+      "meaning": ["그림을 그리는 색깔 도구"],
+      "components": ["크", "레", "용"]
+    },
+    {
+      "letter": "쿠키",
+      "name": "쿠키",
+      "sound": null,
+      "example": null,
+      "image": ["🍪"],
+      "meaning": ["달콤한 작은 과자"],
+      "components": ["쿠", "키"]
+    },
+    {
+      "letter": "코알라",
+      "name": "코알라",
+      "sound": null,
+      "example": null,
+      "image": ["🐨"],
+      "meaning": ["나무에 사는 귀여운 동물"],
+      "components": ["코", "알", "라"]
+    },
+    {
+      "letter": "컴퓨터",
+      "name": "컴퓨터",
+      "sound": null,
+      "example": null,
+      "image": ["💻"],
+      "meaning": ["게임을 할 수 있는 기계"],
+      "components": ["컴", "퓨", "터"]
+    },
+    {
+      "letter": "카메라",
+      "name": "카메라",
+      "sound": null,
+      "example": null,
+      "image": ["📷"],
+      "meaning": ["사진을 찍는 기계"],
+      "components": ["카", "메", "라"]
+    },
+    {
+      "letter": "콜라",
+      "name": "콜라",
+      "sound": null,
+      "example": null,
+      "image": ["🥤"],
+      "meaning": ["시원한 검은색 음료"],
+      "components": ["콜", "라"]
+    },
+    {
+      "letter": "키보드",
+      "name": "키보드",
+      "sound": null,
+      "example": null,
+      "image": ["⌨️"],
+      "meaning": ["컴퓨터에 글씨를 치는 것"],
+      "components": ["키", "보", "드"]
+    },
+    {
+      "letter": "토끼",
+      "name": "토끼",
+      "sound": null,
+      "example": null,
+      "image": ["🐰"],
+      "meaning": ["깡충깡충 뛰는 귀여운 동물"],
+      "components": ["토", "끼"]
+    },
+    {
+      "letter": "토마토",
+      "name": "토마토",
+      "sound": null,
+      "example": null,
+      "image": ["🍅"],
+      "meaning": ["빨간 둥근 채소"],
+      "components": ["토", "마", "토"]
+    },
+    {
+      "letter": "텔레비전",
+      "name": "텔레비전",
+      "sound": null,
+      "example": null,
+      "image": ["📺"],
+      "meaning": ["만화를 볼 수 있는 것"],
+      "components": ["텔", "레", "비", "전"]
+    },
+    {
+      "letter": "타이어",
+      "name": "타이어",
+      "sound": null,
+      "example": null,
+      "image": ["🛞"],
+      "meaning": ["차의 둥근 바퀴"],
+      "components": ["타", "이", "어"]
+    },
+    {
+      "letter": "테이블",
+      "name": "테이블",
+      "sound": null,
+      "example": null,
+      "image": ["🪑"],
+      "meaning": ["물건을 올려놓는 평평한 가구"],
+      "components": ["테", "이", "블"]
+    },
+    {
+      "letter": "택시",
+      "name": "택시",
+      "sound": null,
+      "example": null,
+      "image": ["🚕"],
+      "meaning": ["돈을 내고 타는 노란 차"],
+      "components": ["택", "시"]
+    },
+    {
+      "letter": "터널",
+      "name": "터널",
+      "sound": null,
+      "example": null,
+      "image": ["🚇"],
+      "meaning": ["산이나 땅 속을 뚫은 길"],
+      "components": ["터", "널"]
+    },
+    {
+      "letter": "타조",
+      "name": "타조",
+      "sound": null,
+      "example": null,
+      "image": ["🦆"],
+      "meaning": ["큰 새"],
+      "components": ["타", "조"]
+    },
+    {
+      "letter": "튤립",
+      "name": "튤립",
+      "sound": null,
+      "example": null,
+      "image": ["🌷"],
+      "meaning": ["예쁜 꽃"],
+      "components": ["튤", "립"]
+    },
+    {
+      "letter": "탁구",
+      "name": "탁구",
+      "sound": null,
+      "example": null,
+      "image": ["🏓"],
+      "meaning": ["작은 공을 치는 운동"],
+      "components": ["탁", "구"]
+    },
+    {
+      "letter": "트럭",
+      "name": "트럭",
+      "sound": null,
+      "example": null,
+      "image": ["🚛"],
+      "meaning": ["큰 물건을 나르는 차"],
+      "components": ["트", "럭"]
+    },
+    {
+      "letter": "태양",
+      "name": "태양",
+      "sound": null,
+      "example": null,
+      "image": ["☀️"],
+      "meaning": ["낮에 밝게 빛나는 것"],
+      "components": ["태", "양"]
+    },
+    {
+      "letter": "포도",
+      "name": "포도",
+      "sound": null,
+      "example": null,
+      "image": ["🍇"],
+      "meaning": ["보라색 동글동글한 과일"],
+      "components": ["포", "도"]
+    },
+    {
+      "letter": "파인애플",
+      "name": "파인애플",
+      "sound": null,
+      "example": null,
+      "image": ["🍍"],
+      "meaning": ["노란색 달콤한 과일"],
+      "components": ["파", "인", "애", "플"]
+    },
+    {
+      "letter": "피아노",
+      "name": "피아노",
+      "sound": null,
+      "example": null,
+      "image": ["🎹"],
+      "meaning": ["손으로 치는 악기"],
+      "components": ["피", "아", "노"]
+    },
+    {
+      "letter": "팬케이크",
+      "name": "팬케이크",
+      "sound": null,
+      "example": null,
+      "image": ["🥞"],
+      "meaning": ["시럽이나 버터를 올려먹는 빈대떡 모양의 말랑한 케이크"],
+      "components": ["팬", "케", "이", "크"]
+    },
+    {
+      "letter": "파",
+      "name": "파",
+      "sound": null,
+      "example": null,
+      "image": ["🥬"],
+      "meaning": ["긴 초록색 채소"],
+      "components": ["파"]
+    },
+    {
+      "letter": "팝콘",
+      "name": "팝콘",
+      "sound": null,
+      "example": null,
+      "image": ["🍿"],
+      "meaning": ["영화관에서 먹는 과자"],
+      "components": ["팝", "콘"]
+    },
+    {
+      "letter": "펭귄",
+      "name": "펭귄",
+      "sound": null,
+      "example": null,
+      "image": ["🐧"],
+      "meaning": ["추운 곳에 사는 흑백 새"],
+      "components": ["펭", "귄"]
+    },
+    {
+      "letter": "풀",
+      "name": "풀",
+      "sound": null,
+      "example": null,
+      "image": ["🌱"],
+      "meaning": ["땅에서 자라는 초록색 것"],
+      "components": ["풀"]
+    },
+    {
+      "letter": "파티",
+      "name": "파티",
+      "sound": null,
+      "example": null,
+      "image": ["🎉"],
+      "meaning": ["즐겁게 노는 모임"],
+      "components": ["파", "티"]
+    },
+    {
+      "letter": "피자",
+      "name": "피자",
+      "sound": null,
+      "example": null,
+      "image": ["🍕"],
+      "meaning": ["둥글고 맛있는 음식"],
+      "components": ["피", "자"]
+    },
+    {
+      "letter": "프레젠트",
+      "name": "프레젠트",
+      "sound": null,
+      "example": null,
+      "image": ["🎁"],
+      "meaning": ["선물"],
+      "components": ["프", "레", "젠", "트"]
+    },
+    {
+      "letter": "풍선",
+      "name": "풍선",
+      "sound": null,
+      "example": null,
+      "image": ["🎈"],
+      "meaning": ["바람을 넣어 부푸는 것"],
+      "components": ["풍", "선"]
+    },
+    {
+      "letter": "하마",
+      "name": "하마",
+      "sound": null,
+      "example": null,
+      "image": ["🦛"],
+      "meaning": ["물에 사는 큰 동물"],
+      "components": ["하", "마"]
+    },
+    {
+      "letter": "해",
+      "name": "해",
+      "sound": null,
+      "example": null,
+      "image": ["☀️"],
+      "meaning": ["낮에 밝게 빛나는 것"],
+      "components": ["해"]
+    },
+    {
+      "letter": "햄버거",
+      "name": "햄버거",
+      "sound": null,
+      "example": null,
+      "image": ["🍔"],
+      "meaning": ["빵 사이에 고기가 있는 음식"],
+      "components": ["햄", "버", "거"]
+    },
+    {
+      "letter": "할머니",
+      "name": "할머니",
+      "sound": null,
+      "example": null,
+      "image": ["👵"],
+      "meaning": ["아빠나 엄마의 어머니"],
+      "components": ["할", "머", "니"]
+    },
+    {
+      "letter": "할아버지",
+      "name": "할아버지",
+      "sound": null,
+      "example": null,
+      "image": ["👴"],
+      "meaning": ["아빠나 엄마의 아버지"],
+      "components": ["할", "아", "버", "지"]
+    },
+    {
+      "letter": "하늘",
+      "name": "하늘",
+      "sound": null,
+      "example": null,
+      "image": ["☁️"],
+      "meaning": ["위쪽의 파란 공간"],
+      "components": ["하", "늘"]
+    },
+    {
+      "letter": "호랑이",
+      "name": "호랑이",
+      "sound": null,
+      "example": null,
+      "image": ["🐅"],
+      "meaning": ["줄무늬가 있는 큰 동물"],
+      "components": ["호", "랑", "이"]
+    },
+    {
+      "letter": "헬리콥터",
+      "name": "헬리콥터",
+      "sound": null,
+      "example": null,
+      "image": ["🚁"],
+      "meaning": ["하늘을 나는 기계"],
+      "components": ["헬", "리", "콥", "터"]
+    },
+    {
+      "letter": "호수",
+      "name": "호수",
+      "sound": null,
+      "example": null,
+      "image": ["🏞️"],
+      "meaning": ["큰 물"],
+      "components": ["호", "수"]
+    },
+    {
+      "letter": "하트",
+      "name": "하트",
+      "sound": null,
+      "example": null,
+      "image": ["❤️"],
+      "meaning": ["사랑을 나타내는 모양"],
+      "components": ["하", "트"]
+    },
+    {
+      "letter": "휴대폰",
+      "name": "휴대폰",
+      "sound": null,
+      "example": null,
+      "image": ["📱"],
+      "meaning": ["손에 들고 다니는 전화기"],
+      "components": ["휴", "대", "폰"]
+    },
+    {
+      "letter": "아기",
+      "name": "아기",
+      "sound": null,
+      "example": null,
+      "image": ["👶"],
+      "meaning": ["작고 귀여운 사람"],
+      "components": ["아", "기"]
+    },
+    {
+      "letter": "아빠",
+      "name": "아빠",
+      "sound": null,
+      "example": null,
+      "image": ["👨"],
+      "meaning": ["나를 사랑해주는 분"],
+      "components": ["아", "빠"]
+    },
+    {
+      "letter": "아이스크림",
+      "name": "아이스크림",
+      "sound": null,
+      "example": null,
+      "image": ["🍦"],
+      "meaning": ["차가운 달콤한 음식"],
+      "components": ["아", "이", "스", "크", "림"]
+    },
+    {
+      "letter": "안경",
+      "name": "안경",
+      "sound": null,
+      "example": null,
+      "image": ["👓"],
+      "meaning": ["눈에 쓰는 것"],
+      "components": ["안", "경"]
+    },
+    {
+      "letter": "앞치마",
+      "name": "앞치마",
+      "sound": null,
+      "example": null,
+      "image": ["👗"],
+      "meaning": ["요리할 때 입는 것"],
+      "components": ["앞", "치", "마"]
+    },
+    {
+      "letter": "악어",
+      "name": "악어",
+      "sound": null,
+      "example": null,
+      "image": ["🐊"],
+      "meaning": ["물에 사는 큰 파충류"],
+      "components": ["악", "어"]
+    },
+    {
+      "letter": "아침",
+      "name": "아침",
+      "sound": null,
+      "example": null,
+      "image": ["🌅"],
+      "meaning": ["하루의 시작 시간"],
+      "components": ["아", "침"]
+    },
+    {
+      "letter": "아픔",
+      "name": "아픔",
+      "sound": null,
+      "example": null,
+      "image": ["😢"],
+      "meaning": ["몸이나 마음이 괴로운 것"],
+      "components": ["아", "픔"]
+    },
+    {
+      "letter": "아름다움",
+      "name": "아름다움",
+      "sound": null,
+      "example": null,
+      "image": ["🌺"],
+      "meaning": ["예쁘고 좋은 것"],
+      "components": ["아", "름", "다", "움"]
+    },
+    {
+      "letter": "알",
+      "name": "알",
+      "sound": null,
+      "example": null,
+      "image": ["🥚"],
+      "meaning": ["새가 낳는 둥근 것"],
+      "components": ["알"]
+    },
+    {
+      "letter": "아무것도",
+      "name": "아무것도",
+      "sound": null,
+      "example": null,
+      "image": ["🕳️"],
+      "meaning": ["하나도 없음"],
+      "components": ["아", "무", "것", "도"]
+    },
+    {
+      "letter": "아파트",
+      "name": "아파트",
+      "sound": null,
+      "example": null,
+      "image": ["🏢"],
+      "meaning": ["높은 집"],
+      "components": ["아", "파", "트"]
+    },
+    {
+      "letter": "어머니",
+      "name": "어머니",
+      "sound": null,
+      "example": null,
+      "image": ["👩"],
+      "meaning": ["나를 낳아주신 분"],
+      "components": ["어", "머", "니"]
+    },
+    {
+      "letter": "얼음",
+      "name": "얼음",
+      "sound": null,
+      "example": null,
+      "image": ["🧊"],
+      "meaning": ["차가운 물"],
+      "components": ["얼", "음"]
+    },
+    {
+      "letter": "어린이",
+      "name": "어린이",
+      "sound": null,
+      "example": null,
+      "image": ["🧒"],
+      "meaning": ["작은 아이"],
+      "components": ["어", "린", "이"]
+    },
+    {
+      "letter": "어깨",
+      "name": "어깨",
+      "sound": null,
+      "example": null,
+      "image": ["💪"],
+      "meaning": ["팔과 몸이 만나는 부분"],
+      "components": ["어", "깨"]
+    },
+    {
+      "letter": "언니",
+      "name": "언니",
+      "sound": null,
+      "example": null,
+      "image": ["👩"],
+      "meaning": ["여자가 부르는 큰 누나"],
+      "components": ["언", "니"]
+    },
+    {
+      "letter": "얼굴",
+      "name": "얼굴",
+      "sound": null,
+      "example": null,
+      "image": ["😊"],
+      "meaning": ["눈, 코, 입이 있는 곳"],
+      "components": ["얼", "굴"]
+    },
+    {
+      "letter": "어제",
+      "name": "어제",
+      "sound": null,
+      "example": null,
+      "image": ["📅"],
+      "meaning": ["오늘 전날"],
+      "components": ["어", "제"]
+    },
+    {
+      "letter": "엄지",
+      "name": "엄지",
+      "sound": null,
+      "example": null,
+      "image": ["👍"],
+      "meaning": ["가장 굵은 손가락"],
+      "components": ["엄", "지"]
+    },
+    {
+      "letter": "어항",
+      "name": "어항",
+      "sound": null,
+      "example": null,
+      "image": ["🐠"],
+      "meaning": ["물고기를 기르는 통"],
+      "components": ["어", "항"]
+    },
+    {
+      "letter": "어둠",
+      "name": "어둠",
+      "sound": null,
+      "example": null,
+      "image": ["🌃"],
+      "meaning": ["빛이 없는 상태"],
+      "components": ["어", "둠"]
+    },
+    {
+      "letter": "엄마",
+      "name": "엄마",
+      "sound": null,
+      "example": null,
+      "image": ["👩"],
+      "meaning": ["나를 사랑해주는 분"],
+      "components": ["엄", "마"]
+    },
+    {
+      "letter": "언덕",
+      "name": "언덕",
+      "sound": null,
+      "example": null,
+      "image": ["⛰️"],
+      "meaning": ["작은 산"],
+      "components": ["언", "덕"]
+    },
+    {
+      "letter": "오리",
+      "name": "오리",
+      "sound": null,
+      "example": null,
+      "image": ["🦆"],
+      "meaning": "물에서 사는 새",
+      "components": ["오", "리"]
+    },
+    {
+      "letter": "오빠",
+      "name": "오빠",
+      "sound": null,
+      "example": null,
+      "image": ["👨"],
+      "meaning": ["여자가 부르는 큰 형"],
+      "components": ["오", "빠"]
+    },
+    {
+      "letter": "오이",
+      "name": "오이",
+      "sound": null,
+      "example": null,
+      "image": ["🥒"],
+      "meaning": ["초록색 긴 채소"],
+      "components": ["오", "이"]
+    },
+    {
+      "letter": "오늘",
+      "name": "오늘",
+      "sound": null,
+      "example": null,
+      "image": ["📅"],
+      "meaning": ["지금 이 날"],
+      "components": ["오", "늘"]
+    },
+    {
+      "letter": "옷",
+      "name": "옷",
+      "sound": null,
+      "example": null,
+      "image": ["👕"],
+      "meaning": ["몸에 입는 것"],
+      "components": ["옷"]
+    },
+    {
+      "letter": "오렌지",
+      "name": "오렌지",
+      "sound": null,
+      "example": null,
+      "image": ["🍊"],
+      "meaning": ["주황색 둥근 과일"],
+      "components": ["오", "렌", "지"]
+    },
+    {
+      "letter": "오토바이",
+      "name": "오토바이",
+      "sound": null,
+      "example": null,
+      "image": ["🏍️"],
+      "meaning": ["두 바퀴 타는 것"],
+      "components": ["오", "토", "바", "이"]
+    },
+    {
+      "letter": "온도",
+      "name": "온도",
+      "sound": null,
+      "example": null,
+      "image": ["🌡️"],
+      "meaning": ["뜨겁고 차가운 정도"],
+      "components": ["온", "도"]
+    },
+    {
+      "letter": "오른쪽",
+      "name": "오른쪽",
+      "sound": null,
+      "example": null,
+      "image": ["➡️"],
+      "meaning": ["왼쪽 반대편"],
+      "components": ["오", "른", "쪽"]
+    },
+    {
+      "letter": "올빼미",
+      "name": "올빼미",
+      "sound": null,
+      "example": null,
+      "image": ["🦉"],
+      "meaning": ["밤에 활동하는 새"],
+      "components": ["올", "빼", "미"]
+    },
+    {
+      "letter": "오징어",
+      "name": "오징어",
+      "sound": null,
+      "example": null,
+      "image": ["🦑"],
+      "meaning": ["바다에 사는 동물"],
+      "components": ["오", "징", "어"]
+    },
+    {
+      "letter": "오후",
+      "name": "오후",
+      "sound": null,
+      "example": null,
+      "image": ["🌇"],
+      "meaning": ["낮 12시 이후"],
+      "components": ["오", "후"]
+    },
+    {
+      "letter": "우유",
+      "name": "우유",
+      "sound": null,
+      "example": null,
+      "image": ["🥛"],
+      "meaning": ["소에서 나오는 하얀 음료"],
+      "components": ["우", "유"]
+    },
+    {
+      "letter": "우리",
+      "name": "우리",
+      "sound": null,
+      "example": null,
+      "image": ["👥"],
+      "meaning": ["나와 다른 사람들"],
+      "components": ["우", "리"]
+    },
+    {
+      "letter": "운동",
+      "name": "운동",
+      "sound": null,
+      "example": null,
+      "image": ["🏃"],
+      "meaning": ["몸을 움직이는 것"],
+      "components": ["운", "동"]
+    },
+    {
+      "letter": "우산",
+      "name": "우산",
+      "sound": null,
+      "example": null,
+      "image": ["☂️"],
+      "meaning": ["비를 막는 도구"],
+      "components": ["우", "산"]
+    },
+    {
+      "letter": "우주",
+      "name": "우주",
+      "sound": null,
+      "example": null,
+      "image": ["🚀"],
+      "meaning": ["지구 밖의 넓은 공간"],
+      "components": ["우", "주"]
+    },
+    {
+      "letter": "울음",
+      "name": "울음",
+      "sound": null,
+      "example": null,
+      "image": ["😭"],
+      "meaning": ["눈물을 흘리는 것"],
+      "components": ["울", "음"]
+    },
+    {
+      "letter": "우체국",
+      "name": "우체국",
+      "sound": null,
+      "example": null,
+      "image": ["📮"],
+      "meaning": ["편지를 보내는 곳"],
+      "components": ["우", "체", "국"]
+    },
+    {
+      "letter": "웃음",
+      "name": "웃음",
+      "sound": null,
+      "example": null,
+      "image": ["😊"],
+      "meaning": ["기쁠 때 하는 것"],
+      "components": ["웃", "음"]
+    },
+    {
+      "letter": "운동화",
+      "name": "운동화",
+      "sound": null,
+      "example": null,
+      "image": ["👟"],
+      "meaning": ["운동할 때 신는 신발"],
+      "components": ["운", "동", "화"]
+    },
+    {
+      "letter": "우물",
+      "name": "우물",
+      "sound": null,
+      "example": null,
+      "image": ["🕳️"],
+      "meaning": ["땅에서 물을 퍼올리는 곳"],
+      "components": ["우", "물"]
+    },
+    {
+      "letter": "우리집",
+      "name": "우리집",
+      "sound": null,
+      "example": null,
+      "image": ["🏠"],
+      "meaning": ["내가 사는 집"],
+      "components": ["우", "리", "집"]
+    },
+    {
+      "letter": "우표",
+      "name": "우표",
+      "sound": null,
+      "example": null,
+      "image": ["📮"],
+      "meaning": ["편지에 붙이는 것"],
+      "components": ["우", "표"]
+    },
+    {
+      "letter": "은행",
+      "name": "은행",
+      "sound": null,
+      "example": null,
+      "image": ["🏦"],
+      "meaning": ["돈을 맡기는 곳"],
+      "components": ["은", "행"]
+    },
+    {
+      "letter": "은색",
+      "name": "은색",
+      "sound": null,
+      "example": null,
+      "image": ["⚪"],
+      "meaning": ["반짝이는 회색"],
+      "components": ["은", "색"]
+    },
+    {
+      "letter": "음식",
+      "name": "음식",
+      "sound": null,
+      "example": null,
+      "image": ["🍽️"],
+      "meaning": ["먹는 것"],
+      "components": ["음", "식"]
+    },
+    {
+      "letter": "음료수",
+      "name": "음료수",
+      "sound": null,
+      "example": null,
+      "image": ["🥤"],
+      "meaning": ["마시는 것"],
+      "components": ["음", "료", "수"]
+    },
+    {
+      "letter": "은수저",
+      "name": "은수저",
+      "sound": null,
+      "example": null,
+      "image": ["🥄"],
+      "meaning": ["은으로 만든 숟가락"],
+      "components": ["은", "수", "저"]
+    },
+    {
+      "letter": "음악",
+      "name": "음악",
+      "sound": null,
+      "example": null,
+      "image": ["🎵"],
+      "meaning": ["듣기 좋은 소리"],
+      "components": ["음", "악"]
+    },
+    {
+      "letter": "음성",
+      "name": "음성",
+      "sound": null,
+      "example": null,
+      "image": ["🗣️"],
+      "meaning": ["목소리"],
+      "components": ["음", "성"]
+    },
+    {
+      "letter": "응급실",
+      "name": "응급실",
+      "sound": null,
+      "example": null,
+      "image": ["🏥"],
+      "meaning": ["아픈 사람을 빨리 도와주는 곳"],
+      "components": ["응", "급", "실"]
+    },
+    {
+      "letter": "은하수",
+      "name": "은하수",
+      "sound": null,
+      "example": null,
+      "image": ["🌌"],
+      "meaning": ["하늘의 별들이 모인 곳"],
+      "components": ["은", "하", "수"]
+    },
+    {
+      "letter": "이름",
+      "name": "이름",
+      "sound": null,
+      "example": null,
+      "image": ["📝"],
+      "meaning": ["나를 부르는 말"],
+      "components": ["이", "름"]
+    },
+    {
+      "letter": "이빨",
+      "name": "이빨",
+      "sound": null,
+      "example": null,
+      "image": ["🦷"],
+      "meaning": ["입 안의 하얀 것"],
+      "components": ["이", "빨"]
+    },
+    {
+      "letter": "입",
+      "name": "입",
+      "sound": null,
+      "example": null,
+      "image": ["👄"],
+      "meaning": ["음식을 먹는 곳"],
+      "components": ["입"]
+    },
+    {
+      "letter": "이마",
+      "name": "이마",
+      "sound": null,
+      "example": null,
+      "image": ["🤕"],
+      "meaning": ["눈썹 위쪽"],
+      "components": ["이", "마"]
+    },
+    {
+      "letter": "이불",
+      "name": "이불",
+      "sound": null,
+      "example": null,
+      "image": ["🛏️"],
+      "meaning": ["잘 때 덮는 것"],
+      "components": ["이", "불"]
+    },
+    {
+      "letter": "일요일",
+      "name": "일요일",
+      "sound": null,
+      "example": null,
+      "image": ["📅"],
+      "meaning": ["한 주의 마지막 날"],
+      "components": ["일", "요", "일"]
+    },
+    {
+      "letter": "이야기",
+      "name": "이야기",
+      "sound": null,
+      "example": null,
+      "image": ["📖"],
+      "meaning": ["재미있는 말"],
+      "components": ["이", "야", "기"]
+    },
+    {
+      "letter": "이웃",
+      "name": "이웃",
+      "sound": null,
+      "example": null,
+      "image": ["🏘️"],
+      "meaning": ["가까이 사는 사람"],
+      "components": ["이", "웃"]
+    },
+    {
+      "letter": "인형",
+      "name": "인형",
+      "sound": null,
+      "example": null,
+      "image": ["🪆"],
+      "meaning": ["사람 모양의 장난감"],
+      "components": ["인", "형"]
+    },
+    {
+      "letter": "일",
+      "name": "일",
+      "sound": null,
+      "example": null,
+      "image": ["💼"],
+      "meaning": ["해야 할 것"],
+      "components": ["일"]
+    },
+    {
+      "letter": "익숙함",
+      "name": "익숙함",
+      "sound": null,
+      "example": null,
+      "image": ["😌"],
+      "meaning": ["잘 아는 느낌"],
+      "components": ["익", "숙", "함"]
+    },
+    {
+      "letter": "이상함",
+      "name": "이상함",
+      "sound": null,
+      "example": null,
+      "image": ["🤨"],
+      "meaning": ["평소와 다른 느낌"],
+      "components": ["이", "상", "함"]
+    }
+  ]
+}
