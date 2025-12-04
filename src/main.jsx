@@ -7,6 +7,7 @@ import {
   RouterProvider,
   createBrowserRouter,
   createRoutesFromElements,
+  redirect,
 } from "react-router-dom";
 
 // Layouts
@@ -44,6 +45,11 @@ import isoWeek from "dayjs/plugin/isoWeek";
 import "dayjs/locale/ko";
 import QueryProvider from "./providers/QueryProvider";
 import { getUserData } from "./api";
+import SeniorLayout from "./layouts/SeniorLayout";
+import SeniorCharacter from "./pages/SeniorCharacter";
+import SeniorTarget from "./pages/SeniorTarget";
+import SeniorMethod from "./pages/SeniorMethod";
+import SeniorLearn from "./pages/SeniorLearn";
 
 dayjs.locale("ko");
 dayjs.extend(objectSupport);
@@ -58,11 +64,20 @@ async function loader() {
   return { user };
 }
 
+// NOTE: 이전 경로를 통해 Senior 구분 로더
+async function rootLoader() {
+  const seniorDomain = import.meta.env.VITE_SENIOR_DOMAIN;
+  const prevDomain = document.referrer;
+  if (seniorDomain.trim() === prevDomain.trim()) {
+    return redirect("/senior");
+  }
+}
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route element={<AuthLayout />} loader={loader} errorElement={<NotFound />}>
       {/* 공개 페이지 */}
-      <Route path="/" element={<Main />} />
+      <Route path="/" element={<Main />} loader={rootLoader} />
       <Route path="/login/teacher" element={<LoginPage target="teacher" />} />
       <Route path="/login/student" element={<LoginPage target="student" />} />
 
@@ -93,6 +108,16 @@ const router = createBrowserRouter(
         <Route path="*" element={<NotFound />} />
       </Route>
 
+      {/* 시니어 전용: /senior */}
+      <Route path="senior" element={<SeniorLayout />}>
+        <Route index element={<SeniorCharacter />} />
+        <Route path="/senior/learn/:character" element={<ProgressLayout />}>
+          <Route index element={<SeniorTarget />} />
+          <Route path=":chapter" element={<SeniorMethod />} />
+          <Route path=":chapter/:method" element={<SeniorLearn />} />
+        </Route>
+        <Route path="*" element={<NotFound />} />
+      </Route>
       {/* 공통 에러/기타 */}
       <Route path="*" element={<NotFound />} />
     </Route>

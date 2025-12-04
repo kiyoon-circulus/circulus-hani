@@ -284,11 +284,20 @@ button {
   font-size: 26rem;
 }
 .write-letter-word-1 {
-  font-size: 26rem;
+  font-size: 24rem;
 }
-.write-letter-word-2 {
+/* .write-letter-word-2 {
   font-size: 20rem;
+} */
+.write-letter-word-2 {
+  font-size: 13.5rem;
 }
 .write-letter-word-3 {
-  font-size: 13.5rem;
+  font-size: 11.5rem;
+}
+.write-letter-word-4 {
+  font-size: 8.5rem;
+}
+.write-letter-word-5 {
+  font-size: 6.5rem;
 }

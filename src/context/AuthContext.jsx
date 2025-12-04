@@ -15,6 +15,11 @@ export const AuthProvider = ({ children, user: userData }) => {
   const isInitialized = useRef(false);
   const hasLoggedOut = useRef(false);
 
+  const isSeniorMode = () => {
+    console.log("location.pathname = ", location.pathname);
+    return location.pathname === "/senior" ? true : false;
+  };
+
   const login = async ({ token: t, ...data }) => {
     console.log("로그인 처리:", {
       role: data.role,
@@ -24,10 +29,12 @@ export const AuthProvider = ({ children, user: userData }) => {
     setToken(t);
     isInitialized.current = true;
     hasLoggedOut.current = false;
-
     const { role } = data;
     if (role === "student") {
-      const targetPath = `/learn/${data.characterId}`;
+      // NOTE: 시니어 모드 분기
+      const targetPath = isSeniorMode()
+        ? `/senior/learn/${data.characterId}`
+        : `/learn/${data.characterId}`;
       console.log("학생 로그인 리다이렉트:", targetPath);
       navigate(targetPath);
     } else {
@@ -44,7 +51,6 @@ export const AuthProvider = ({ children, user: userData }) => {
 
     // 학습 세션 데이터만 정리
     localStorage.removeItem("hangul_learning_session");
-
     navigate("/", { replace: true });
   };
 
@@ -52,7 +58,13 @@ export const AuthProvider = ({ children, user: userData }) => {
   const getId = () => user?._id || null;
   const getUserId = () => user?.userId || null;
   const getName = () => user?.name || null;
-  const publicPaths = ["/", "/login", "/login/student", "/login/teacher"];
+  const publicPaths = [
+    "/",
+    "/login",
+    "/login/student",
+    "/login/teacher",
+    "/senior",
+  ];
 
   // 1. 서버에서 받은 사용자 데이터로 초기화
   useEffect(() => {
@@ -98,9 +110,13 @@ export const AuthProvider = ({ children, user: userData }) => {
         role: user.role,
         currentPath,
       });
+      // NOTE: 시니어 모드 분기
+      const targetPath = isSeniorMode()
+        ? `/senior/learn/${user.characterId}`
+        : user.role === "student"
+        ? `/learn/${user.characterId}`
+        : "/manage";
 
-      const targetPath =
-        user.role === "student" ? `/learn/${user.characterId}` : "/manage";
       navigate(targetPath, { replace: true });
     }
   }, [user, location.pathname, navigate]);

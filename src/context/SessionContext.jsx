@@ -29,6 +29,7 @@ const LearningSessionContext = createContext(null);
 export const SessionProvider = ({ children }) => {
   // URL 파라미터 관리
   const { character, chapter, method } = useParams(); // charater: charaterId, chapter: chapterId, method: read/listen/speak/write
+  // console.log("character, chapter, method = ", character, chapter, method);
   const navigate = useNavigate();
   // 데이터 쿼리
   const {
