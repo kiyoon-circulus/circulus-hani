@@ -14,11 +14,12 @@ const MenuCard = ({
     <BlurFade
       delay={total > 4 ? 0.1 * index : 0.25 * index}
       inView
-      className="flex flex-col gap-2 justify-center items-center self-stretch w-full min-w-60 tl6:p-2"
+      className="flex flex-col gap-2 justify-center items-center self-stretch w-full min-w-40 tl6:p-2"
     >
       <Card
         className={`flex relative flex-col flex-grow gap-2 justify-center items-center self-stretch p-2 shadow-xl cursor-pointer ${className} ${
-          disabled ? "opacity-70 saturate-50 blur-[1px]" : ""}`}
+          disabled ? "opacity-70 saturate-50 blur-[1px]" : ""
+        }`}
         onClick={() => !disabled && onCardClick(item)}
       >
         <div className="flex flex-grow gap-2 justify-center items-center self-stretch p-2">

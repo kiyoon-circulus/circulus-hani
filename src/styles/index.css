@@ -278,26 +278,42 @@ button {
   background-color: rgba(59, 130, 246, 0.3); /* Firefox용 */
   color: inherit;
 }
+/* 캔버스 쓰기 글자 크기 */
 .write-letter-consonant-1,
 .write-letter-vowel-1,
-.write-letter-letter-1 {
+.write-letter-letter-1,
+.write-letter-word-1 {
   font-size: 26rem;
 }
-.write-letter-word-1 {
-  font-size: 24rem;
-}
-/* .write-letter-word-2 {
-  font-size: 20rem;
-} */
 .write-letter-word-2 {
-  font-size: 13.5rem;
+  font-size: 20rem;
 }
 .write-letter-word-3 {
-  font-size: 11.5rem;
+  font-size: 14rem;
 }
 .write-letter-word-4 {
-  font-size: 8.5rem;
+  font-size: 10.5rem;
 }
 .write-letter-word-5 {
-  font-size: 6.5rem;
+  font-size: 8.5rem;
+}
+
+/* 시니어 캔버스 쓰기 글자 크기 */
+.senior-write-letter-consonant-1,
+.senior-write-letter-vowel-1,
+.senior-write-letter-letter-1,
+.senior-write-letter-word-1 {
+  font-size: 20rem;
+}
+.senior-write-letter-word-2 {
+  font-size: 15rem;
+}
+.senior-write-letter-word-3 {
+  font-size: 10rem;
+}
+.senior-write-letter-word-4 {
+  font-size: 7.5rem;
+}
+.senior-write-letter-word-5 {
+  font-size: 6rem;
 }

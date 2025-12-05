@@ -15,9 +15,9 @@ export const AuthProvider = ({ children, user: userData }) => {
   const isInitialized = useRef(false);
   const hasLoggedOut = useRef(false);
 
+  // NOTE:Session에서 시니어 모드 구분
   const isSeniorMode = () => {
-    console.log("location.pathname = ", location.pathname);
-    return location.pathname === "/senior" ? true : false;
+    return sessionStorage.getItem("isSeniorMode") || false;
   };
 
   const login = async ({ token: t, ...data }) => {

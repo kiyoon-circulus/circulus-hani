@@ -284,7 +284,7 @@ const SeniorLearnByWrite = ({
     }
   }, [currentItemIndex, target, currentRepeat, currentLearningCount]);
 
-  // NOTE: 글자 수에 따른 캔버스 굵기 조절
+  // NOTE: 글자 수에 따른 캔버스 쓰기 굵기 조절
   const [canvasLineWidth, setCanvasLineWidth] = useState(26);
   useEffect(() => {
     // console.log("item = ", item);
@@ -300,7 +300,7 @@ const SeniorLearnByWrite = ({
         return setCanvasLineWidth(22);
 
       default:
-        return setCanvasLineWidth(28);
+        return setCanvasLineWidth(26);
     }
   }, [item]);
   // ===== 캔버스 준비 (투명) =====
@@ -379,7 +379,7 @@ const SeniorLearnByWrite = ({
                 >
                   {/** 글자길이에 따른 크기 변경 write-letter 클래스 */}
                   <p
-                    className={`flex items-center justify-center h-full select-none text-xl nanum-gothic-extrabold write-letter-${target}-${item.letter.length}`}
+                    className={`flex items-center justify-center h-full select-none text-xl nanum-gothic-extrabold senior-write-letter-${target}-${item.letter.length}`}
                   >
                     {item.letter}
                   </p>
@@ -409,9 +409,10 @@ const SeniorLearnByWrite = ({
               >
                 💡
               </Button>
+              {/** NOTE:Ubuntu에서 아이콘이 달라서 x버튼 색깔 넣어줘야함. */}
               <Button
                 size="lg"
-                className="h-full p-4 text-6xl bg-white hover:bg-error/20 disabled:grayscale disabled:bg-black/20"
+                className="h-full p-4 text-6xl bg-white hover:bg-error/20 disabled:grayscale disabled:bg-black/20 text-red-500"
                 disabled={busy}
                 onClick={() => clearCanvas(true)}
               >
