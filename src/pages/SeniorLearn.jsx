@@ -119,7 +119,7 @@ const SeniorLearn = () => {
 
   return (
     <>
-      <div className="grid grid-rows-[auto_1fr] md:gap-4 px-6 py-4 w-full h-full relative rounded-t-3xl overflow-hidden">
+      <div className="grid grid-rows-[auto_1fr] md:gap-4 px-6 py-4 rounded-t-3xl w-screen h-screen overflow-hidden">
         {/* 숨겨진 비디오 요소 - 모든 학습 컴포넌트에서 공유 */}
         <video
           ref={videoRef}
