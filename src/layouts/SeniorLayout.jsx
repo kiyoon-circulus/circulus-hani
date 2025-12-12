@@ -2,14 +2,12 @@ import { Toaster } from "@/components/ui/sonner";
 import { Outlet } from "react-router-dom";
 
 export default function SeniorLayout() {
-  const scaleFactor = 960 / 1024;
   return (
     <div className="w-screen h-screen flex items-center justify-center bg-gray-50 overflow-hidden">
       {/** 해상도 크기 고정 */}
       <div
-        className="w-[1024px] h-[600px] max-w-[1024px] max-h-[600px] bg-white shadow-2xl h-[min(100vh,600px)] mx-auto overflow-auto relative"
+        className="bg-white shadow-2xl overflow-auto"
         style={{
-          transform: `scale(${scaleFactor})`,
           transformOrigin: "center",
         }}
       >

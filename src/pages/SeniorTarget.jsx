@@ -59,7 +59,7 @@ function SeniorTarget() {
 
   return (
     <>
-      <div className="grid grid-rows-[auto_auto_1fr] overflow-hidden md:gap-4 w-full h-full">
+      <div className="grid grid-rows-[auto_auto_1fr] overflow-hidden md:gap-4 w-screen h-screen">
         <header className="col-span-full px-6 pt-4 text-2xl font-extrabold md:text-5xl text-start">
           <button
             className="p-1 mr-1 w-12 h-12 bg-transparent rounded-full hover:bg-black/10"

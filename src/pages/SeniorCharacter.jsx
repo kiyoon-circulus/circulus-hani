@@ -62,7 +62,7 @@ export default function SeniorCharacter() {
   }, []);
   return (
     <>
-      <div className="grid grid-rows-[auto_auto_1fr] md:gap-4 px-6 py-4 w-full h-full max-w-[1024px] max-h-[600px] ">
+      <div className="grid grid-rows-[auto_1fr] md:gap-4 px-6 py-4 rounded-t-3xl w-screen h-screen overflow-hidden">
         <header className="text-2xl font-extrabold col-span-full md:text-5xl text-start flex items-center">
           <a href="http://localhost:3000">
             <ArrowBigLeft className="w-14 h-14 mr-2" />
