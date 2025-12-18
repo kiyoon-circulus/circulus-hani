@@ -45,7 +45,7 @@ export default function SeniorCharacter() {
   };
 
   useEffect(() => {
-    localStorage.removeItem("learningStats");
+    sessionStorage.removeItem("learningStats");
     const resume = getDefaultProgress();
     if (resume?.character) return navigate(`/senior/learn/${resume.character}`);
   }, []);
