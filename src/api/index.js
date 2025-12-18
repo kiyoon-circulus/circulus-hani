@@ -1,3 +1,5 @@
+import AUTH_DUMMY from "@/assets/dummy/AuthDummy";
+
 console.log(
   import.meta.env.MODE,
   import.meta.env.VITE_APP_ENV,
@@ -149,9 +151,14 @@ export const getUserData = () =>
     let token = window.localStorage.getItem("token");
     token = token ? JSON.parse(token) : null;
     if (!token) return resolve(null);
-    auth({ token }).then(({ result, data }) => {
-      result ? resolve(data) : resolve(null);
-    });
+    const seniormode = window.localStorage.getItem('isSeniorMode');
+    if(seniormode) {
+      resolve(AUTH_DUMMY)
+    } else {
+      auth({ token }).then(({ result, data }) => {
+        result ? resolve(data) : resolve(null);
+      });
+    }
   });
 
 export const userSignIn = async (logindata) => {

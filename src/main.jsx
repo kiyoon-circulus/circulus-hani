@@ -69,7 +69,7 @@ async function rootLoader() {
   const seniorDomain = import.meta.env.VITE_SENIOR_DOMAIN;
   const prevDomain = document.referrer;
   if (seniorDomain.trim() === prevDomain.trim()) {
-    sessionStorage.setItem("isSeniorMode", true);
+    localStorage.setItem("isSeniorMode", true);
     return redirect("/senior");
   }
 }

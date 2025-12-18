@@ -17,7 +17,7 @@ export const AuthProvider = ({ children, user: userData }) => {
 
   // NOTE:Session에서 시니어 모드 구분
   const isSeniorMode = () => {
-    return sessionStorage.getItem("isSeniorMode") || false;
+    return localStorage.getItem("isSeniorMode") || false;
   };
 
   const login = async ({ token: t, ...data }) => {
