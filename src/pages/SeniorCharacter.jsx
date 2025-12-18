@@ -11,11 +11,10 @@ import { BlurFade } from "@/components/magicui/blur-fade";
 import { useAuth } from "@/context/AuthContext";
 
 // ETC
-import { userSignIn } from "@/api";
-import { useMutation } from "@tanstack/react-query";
 import characterSelection from "@/assets/dummy/characterSelection";
 import { useNavigate } from "react-router-dom";
 import { ArrowBigLeft } from "lucide-react";
+import AUTH_DUMMY from "@/assets/dummy/AuthDummy";
 
 export default function SeniorCharacter() {
   const navigate = useNavigate();
@@ -27,21 +26,11 @@ export default function SeniorCharacter() {
   const { getDefaultProgress } = useSessionStore();
   // Student SignIn
   const { login } = useAuth();
-  const signInMutation = useMutation({
-    mutationKey: ["signin", "student", "kdi61078"],
-    mutationFn: userSignIn,
-    onSuccess: async (result) => {
-      await login(result);
-    },
-    onError: (error) => {
-      console.log(`signInMutaion Error: ${error}`);
-    },
-  });
 
   // EventHandler
-  const handleConfirm = () => {
+  const handleConfirm = async () => {
     setOpenDialog(false);
-    signInMutation.mutate({ userId: "kdi61078", password: "kdi61078" });
+    await login(AUTH_DUMMY)
   };
   const handleCancel = () => {
     // NOTE: 닫기 이전에 undefined로 되어있는 Dialog 현상 방지
