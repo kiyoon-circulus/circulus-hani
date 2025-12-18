@@ -31,7 +31,10 @@ const SeniorLearnBySpeak = ({
   const [listening, setListening] = useState(false); // UI 표시용
   const [transcript, setTranscript] = useState("");
 
-  const recogRef = useRef(null);
+  // 기존 상태 유지하며 추가/변경
+  const [gumStream, setGumStream] = useState(null);
+  const mediaRecorderRef = useRef(null);
+  const chunksRef = useRef([]); // 녹음 데이터 조각 저장
   const forceStopRef = useRef(false); // 사용자가 정지/제출 눌렀는지
 
   // 오디오 엘리먼트 및 상태
@@ -66,112 +69,115 @@ const SeniorLearnBySpeak = ({
 
   // 네이티브 인식 시작
   const handleMicButton = async () => {
+    console.log('네이티브 시작')
     setAlert(["", ""]);
-    const SR = getSR();
-    if (!SR) {
-      setAlert([
-        "destructive",
-        "브라우저가 Web Speech API를 지원하지 않습니다.",
-      ]);
-      return;
-    }
-    if (!window.isSecureContext) {
-      setAlert(["destructive", "HTTPS 환경에서만 동작합니다."]);
-      return;
-    }
-
     try {
       setStarting(true); // ★ 클릭 즉시 로딩 UI
       window.speechSynthesis?.cancel?.();
 
-      // 기존 세션 정리
-      stopRecognition({ uiOnly: true }); // UI 유지한 채 내부만 정리
+      // 1. 마이크 스트림 확보
+    const stream = await navigator.mediaDevices.getUserMedia({ 
+      audio: {
+        sampleRate: 16000,
+        channelCount: 1,
+        echoCancellation: true, // 에코 제거
+        noiseSuppression: true,  // 노이즈 억제
+        autoGainControl: true    // 자동 게인 조절
+      }
+});
+      setGumStream(stream);
 
-      const rec = new SR();
-      recogRef.current = rec;
-
-      rec.lang = "ko-KR";
-      rec.interimResults = true;
-      rec.maxAlternatives = 1;
-      rec.continuous = true; // ★ 제출/정지 전까지 계속 듣기
-
+      // 2. MediaRecorder 설정
+      const recorder = new MediaRecorder(stream, { mimeType: 'audio/webm' });
+      mediaRecorderRef.current = recorder;
+      chunksRef.current = [];
       forceStopRef.current = false;
 
-      rec.onstart = () => {
-        setStarting(false);
-        setListening(true);
-      };
+      recorder.ondataavailable = (e) => {
+        if (e.data.size > 0) chunksRef.current.push(e.data);
+      }
 
-      rec.onresult = (e) => {
-        let text = transcript;
-        for (let i = e.resultIndex; i < e.results.length; i++) {
-          const seg = e.results[i][0]?.transcript || "";
-          // interim 포함 누적 (필요시 확정만 사용하려면 e.results[i].isFinal로 분기)
-          text = seg.trim();
-        }
-        setTranscript(text);
-      };
+      // 3. 녹음 중지 시 서버 STT 호출
+      recorder.onstop = async () => {
+        if (forceStopRef.current) return; // 강제 취소 시 중단
 
-      rec.onerror = (e) => {
-        // 사용자가 의도적으로 끄는 중이면 무시
-        if (forceStopRef.current) return;
-        setAlert(["destructive", e?.error || "음성 인식 오류가 발생했습니다."]);
-      };
+        const audioBlob = new Blob(chunksRef.current, { type: "audio/webm" });
+        const formData = new FormData();
+        formData.append("file", audioBlob, "voice.webm");
 
-      rec.onend = () => {
-        // Chrome이 자동으로 end를 호출할 수 있음 → 연속 청취 유지 위해 재시작
-        if (!forceStopRef.current) {
-          try {
-            rec.start();
-          } catch (e) {
-            // 재시작 실패 시에도 UI는 유지하고 안내만
-            setAlert([
-              "destructive",
-              "마이크 연결이 일시적으로 끊어졌습니다. 다시 시도 중...",
-            ]);
-            // 짧은 재시도
-            setTimeout(() => {
-              rec.start();
-            }, 300);
+        setAlert(["primary", "발음을 분석하고 있습니다..."]);
+
+        try {
+          // 1. 내부망 STT 서버로 전송
+          const url = 'http://127.0.0.1:59532/v1'
+          const res = await fetch(`${url}/stt?lang=ko&isPlay=0`, {
+            method: "POST",
+            body: formData,
+          });
+
+          const result = await res.json();
+          const recognizedText = (result.text || result.data || "").trim();
+          
+          // 2. 텍스트 전처리 (공백 제거 등)
+          const cleanedText = recognizedText.replace(/[^가-힣ㄱ-ㅎㅏ-ㅣ\s]/g, "").trim();
+
+          if (cleanedText) {
+            setTranscript(cleanedText);
+            
+            // 3. 즉시 판단 및 결과 전송 (onAnswer 호출)
+            // 여기서 item.name(정답)과 cleanedText(인식결과)를 비교하는 로직이 onAnswer 내부에서 실행됩니다.
+            onAnswer(cleanedText, item.name); 
+            
+            // 4. 리소스 정리
+            stopMicButton(); 
+          } else {
+            setAlert(["destructive", "소리가 잘 들리지 않습니다. 다시 말씀해주세요."]);
+            setListening(false);
           }
+        } catch (error) {
+          setAlert(["destructive", "오프라인 서버 연결을 확인해주세요."]);
+          setListening(false);
         }
       };
 
-      rec.start();
-    } catch (error) {
-      console.error(error);
-      setStarting(false);
-      setListening(false);
-    }
+    recorder.start();
+    setStarting(false);
+    setListening(true);
+  } catch (error) {
+    setAlert(["destructive", "마이크 연결 실패"]);
+    setStarting(false);
+    setListening(false);
+  }
   };
 
   // 네이티브 인식 정지
   const stopRecognition = ({ uiOnly = false } = {}) => {
-    if (recogRef.current) {
-      recogRef.current.onend = null;
-      recogRef.current.onerror = null;
-      recogRef.current.onresult = null;
-      recogRef.current.stop && recogRef.current.stop();
-      recogRef.current.abort && recogRef.current.abort();
+    // 1. 레코더 중단 (이게 onstop을 트리거함)
+    if (mediaRecorderRef.current && mediaRecorderRef.current.state === "recording") {
+      mediaRecorderRef.current.stop();
     }
-    recogRef.current = null;
 
-    if (!uiOnly) {
+    // 2. 스트림 종료는 약간의 유예를 두거나 uiOnly가 아닐 때만 수행
+    if (!uiOnly && gumStream) {
+      gumStream.getAudioTracks().forEach((track) => track.stop());
+      setGumStream(null);
       setListening(false);
       setStarting(false);
     }
   };
 
-  const stopMicButton = () => {
-    forceStopRef.current = true;
-    stopRecognition({ uiOnly: false }); // UI도 종료
-    setTranscript("");
-    setAlert(["", ""]);
-  };
+ const stopMicButton = () => {
+  console.log("사용자 취소: API 호출 안함");
+  forceStopRef.current = true; // ★ fetch 방지
+  stopRecognition({ uiOnly: false });
+  setTranscript("");
+  setAlert(["", ""]);
+};
 
   const checkPronunciation = () => {
-    onAnswer(transcript, item.name);
-    stopMicButton(); // ★ 실제 정지 호출(괄호 누락 수정)
+    console.log("제출 시도: 녹음 중지 및 STT 요청");
+    forceStopRef.current = false; // ★ 반드시 false여야 fetch가 실행됨
+    stopRecognition({ uiOnly: false }); // 분석을 시작하므로 UI를 정리함
   };
 
   const stopPlayback = () => {
@@ -386,7 +392,7 @@ const SeniorLearnBySpeak = ({
                 size="lg"
                 className="flex justify-center text-2xl font-bold h-fit"
                 onClick={checkPronunciation}
-                disabled={!transcript}
+                disabled={!listening}
               >
                 <AudioLines />
                 제출하기
