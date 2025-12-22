@@ -66,12 +66,14 @@ async function loader() {
 
 // NOTE: 이전 경로를 통해 Senior 구분 로더
 async function rootLoader() {
-  const seniorDomain = import.meta.env.VITE_SENIOR_DOMAIN;
-  const prevDomain = document.referrer;
-  if (seniorDomain.trim() === prevDomain.trim()) {
-    sessionStorage.setItem("isSeniorMode", true);
-    return redirect("/senior");
-  }
+  const urlParams = new URLSearchParams(window.location.search);
+  const mode = urlParams.get('mode');
+  const ref = document.referrer;
+  const isReferrer3000 = ref.includes(':3000');
+ if(mode || isReferrer3000) {
+  sessionStorage.setItem('isSeniorMode', 'true');
+   return redirect("/senior");
+ }
 }
 
 const router = createBrowserRouter(

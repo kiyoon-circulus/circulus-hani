@@ -151,8 +151,8 @@ export const getUserData = () =>
     let token = window.localStorage.getItem("token");
     token = token ? JSON.parse(token) : null;
     if (!token) return resolve(null);
-    const seniormode = window.localStorage.getItem('isSeniorMode');
-    if(seniormode) {
+    const seniormode = sessionStorage.getItem('isSeniorMode');
+    if(seniormode === 'true') {
       resolve(AUTH_DUMMY)
     } else {
       auth({ token }).then(({ result, data }) => {
