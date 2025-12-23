@@ -1,4 +1,4 @@
-import AUTH_DUMMY from "@/assets/dummy/AuthDummy";
+import { AUTH_DUMMY } from "@/assets/dummy/AuthDummy";
 
 console.log(
   import.meta.env.MODE,
@@ -151,9 +151,9 @@ export const getUserData = () =>
     let token = window.localStorage.getItem("token");
     token = token ? JSON.parse(token) : null;
     if (!token) return resolve(null);
-    const seniormode = sessionStorage.getItem('isSeniorMode');
-    if(seniormode === 'true') {
-      resolve(AUTH_DUMMY)
+    const seniormode = sessionStorage.getItem("isSeniorMode");
+    if (seniormode === "true") {
+      resolve(AUTH_DUMMY);
     } else {
       auth({ token }).then(({ result, data }) => {
         result ? resolve(data) : resolve(null);

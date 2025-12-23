@@ -22,9 +22,10 @@ import {
   startSession,
 } from "@/api/session";
 import useCurriculumListQuery from "@/hook/useCurriculumListQuery";
+import { IPAPI_DUMMY } from "@/assets/dummy/AuthDummy";
 // 1. 컨텍스트 생성
 const LearningSessionContext = createContext(null);
-
+const isSeniorMode = sessionStorage.getItem("isSeniorMode");
 // 2. Provider 컴포넌트
 export const SessionProvider = ({ children }) => {
   // URL 파라미터 관리
@@ -95,8 +96,15 @@ export const SessionProvider = ({ children }) => {
                 height: screen.height,
               },
             };
-            const res = await fetch("https://ipapi.co/json/");
-            const location = await res.json();
+
+            // NOTE: SeniorMode 분기
+            // const res = await fetch("https://ipapi.co/json/");
+            // const location = await res.json();
+            const res =
+              isSeniorMode === "true"
+                ? IPAPI_DUMMY
+                : await fetch("https://ipapi.co/json/");
+            const location = isSeniorMode === "true" ? res : await res.json();
             device.ip = location.ip;
             const { city, region, country } = location;
             device.geo = { city, region, country };
