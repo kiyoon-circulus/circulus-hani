@@ -1,10 +1,39 @@
-const AUTH_DUMMY = {
-    "_id": "691a6d433f6fa1f311425122",
-      "userId": "kdi61078",
-      "name": "kdi61078",
-      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MWE2ZDQzM2Y2ZmExZjMxMTQyNTEyMiIsImxhc3RUaW1lIjoxNzY1OTQwNDUyMDE2LCJpYXQiOjE3NjU5NDA0NTIsImV4cCI6MTc2NTk1NDg1Mn0.YT_FtaLRnWrk7sQYnP05yabkSxvBpJap94YYfaMSo_Q",
-      "role": "student",
-      "characterId": "691a6d43eb6b241816a865d1"
-}
+export const AUTH_DUMMY = {
+  _id: "691a6d433f6fa1f311425122",
+  userId: "kdi61078",
+  name: "kdi61078",
+  token:
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MWE2ZDQzM2Y2ZmExZjMxMTQyNTEyMiIsImxhc3RUaW1lIjoxNzY1OTQwNDUyMDE2LCJpYXQiOjE3NjU5NDA0NTIsImV4cCI6MTc2NTk1NDg1Mn0.YT_FtaLRnWrk7sQYnP05yabkSxvBpJap94YYfaMSo_Q",
+  role: "student",
+  characterId: "691a6d43eb6b241816a865d1",
+};
 
-export default AUTH_DUMMY
+export const IPAPI_DUMMY = {
+  ip: "222.112.0.215",
+  network: "222.112.0.0/21",
+  version: "IPv4",
+  city: "Gwanak-gu",
+  region: "Seoul",
+  region_code: "11",
+  country: "KR",
+  country_name: "South Korea",
+  country_code: "KR",
+  country_code_iso3: "KOR",
+  country_capital: "Seoul",
+  country_tld: ".kr",
+  continent_code: "AS",
+  in_eu: false,
+  postal: "087",
+  latitude: 37.4873,
+  longitude: 126.9227,
+  timezone: "Asia/Seoul",
+  utc_offset: "+0900",
+  country_calling_code: "+82",
+  currency: "KRW",
+  currency_name: "Won",
+  languages: "ko-KR,en",
+  country_area: 98480.0,
+  country_population: 51635256,
+  asn: "AS4766",
+  org: "Korea Telecom",
+};
